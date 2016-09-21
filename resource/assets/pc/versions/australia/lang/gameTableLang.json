@@ -1,0 +1,676 @@
+{
+    //取消成功
+	"cancleSuccess" : "Canceled",
+		
+	//购买成功
+	"buySuccess" : "Success",
+		
+	//恭喜，购买成功，道具已放入个人物品道具栏
+	"conBuySuccess" : "Congratulations! Your purchase was successfully completed!",
+		
+	//(打开)新手教程
+	"openNewGuide" : "Open",
+		
+	//欢迎来到
+	"welcomeTo" : "Welcome to",
+		
+	//提示：比赛过程中不允许离坐！
+	"noLeaveoffSeat" : "Prompt: You cannot leave the table during the middle of a game.",
+		
+	//继续比赛
+	"continueGame" : "Continue",
+		
+	//您确定要退出比赛吗？\n提示：比赛已经开始，中途退出视为放弃比赛，参赛费和服务费均不退。
+	"noRefund" : "Are you sure you want to exit the tournament? It's already started, if you quit now, the service and the tournament fees won't be returned.",
+		
+	//退出比赛
+	"quiteGame" : "Quit",
+	
+	//您的余额已不足以继续游戏，请到粉丝页参加活动免费获取筹码。
+	"takeApartInFansPage" : "Your don't have enough chips to join the game, please recharge or become our Fan to get free chips.",
+		
+	//去粉丝页
+	"goFansPage" : "Become a fan",
+		
+	//盲注值变化为(小/大):
+	"blindsChanges" : "blinds change to (small/big)",
+		
+	//清除场内动态
+	"clearDynamic" : "Clear",
+	
+	//当前没有空坐位，请更换房间坐下或稍候再试！
+	"noEmptySeat" : "There is no available seat now, try another table!",
+		
+	//赢得
+	"win" : "Won",
+		
+	//游戏客服
+	"GM" : "Feedback",
+		
+	//加入牌局
+	"takePartInGame" : " joined ",
+		
+	//升级了
+	"levelUp" : "Raised",
+		
+	//升到
+	"levelUpTo" : " Raise to",
+		
+	//请至少买入
+	"buyAtLeast" : "Min. buy in",
+		
+	//余额不足 不能买入
+	"canotBuyInForLessChips" : "Insufficient balance!",
+		
+	//屏蔽/打开聊天功能
+	"turnOnOrOffChat" : "ON/OFF game chat",
+		
+	//预置短语
+	"defaultPhase" : "Quick phrases",
+		
+	//表情
+	"expression" : "Emoticons",
+		
+	//清除聊天记录
+	"clearChatRecord" : "Clear",
+		
+	//全屏状态下无法输入文字！
+	"noInputOnFullScreen" : "It is not possible to type on the full-screen mode.",
+		
+	//我明白私底下利用筹码来交易现金是违反服务规则的，可能遭到禁玩德州扑克或法律诉讼的处分。
+	"noPrivateTransactionsWarning" : "Privately buying or selling chips is a violation of Artrix's Service Terms. Users involved might get their accounts banned.",
+		
+	//提示:您的发言太快了,请休息一会
+	"speakTooOften" : "You are sending too much messages，take a rest for a minute!",
+		
+	//提示:您没有坐下,不能发送表情
+	"noSpeakingForNotSeat" : "Prompt: you can't send emoticons before joining the table.",
+		
+	//提示：您的余额不足，不能发送该表情
+	"noSpeakingForNoFee" : "Prompt : You don't have enough chips to send emoticons.",
+		
+	//提示：聊天功能已屏蔽！
+	"chatOff" : "Note: Chat Off!",
+		
+	//提示：聊天功能已打开
+	"charOn" : "Note: Chat Activated!",
+		
+	//表情描述
+	/*"descriptionArr1" : ["得意", "惊恐", "打呵欠", "报仇", "祈祷", 
+	                                             "求包养", "大兵", "衰", "嘘", "一秒变格格", 
+												 "抽泣", "炸", "色", "抓狂", "微笑", 
+												 "谢谢", "难过", "开心", "心碎", "加油", 
+												 "感冒", "钱", "追债", "生气", "刷牙", 
+												 "恶魔", "路过", "鄙视", "晕", "橡皮擦",
+												 "欢迎来到"],*/
+	"descriptionArr1" : ["cocky", "horror", "yawn", "revenge", "prayer",
+													"seeking nurturing", "soldier", "unlucky", "hush", "a second princess",
+													"sobbing", "explosion", "horny", "crazy", "smile",
+													"Thank You", "sad", "happy", "broken heart", "come on",
+													"cold", "money", "debt collection", "angry", "brushing",
+													"devil", "passer-by", "disdain", "faint", "eraser",
+													"worship"],
+												   
+	/*"descriptionArr2" : ["奸笑", "不要", "吃惊", "可怜", "变脸", 
+		                                             "调皮","挨打", "健身", "委屈", "流泪", 
+													 "大哭","大呼", "色色", "兴奋", "感冒", 
+													 "发呆", "抓狂", "傲慢", "难过", "欺负",
+													 "无赖", "跳跳", "发怒", "金钱", "拜神", 
+													 "坏笑", "捆绑", "冷汗", "鼻涕", "无聊", 
+													 "折磨", "玫瑰", "乞丐", "睡觉", "阴险"],*/
+	"descriptionArr2" : ["smirking", "do not", "surprised", "poor", "face",
+							"naughty", "beaten", "fitness", "wronged", "tears",
+							"crying", "screaming", "color-color", "excited", "cold",
+							"daze", "crazy", "arrogant", "sad", "bully",
+							"rogue", "jumping", "angry", "money", "worship",
+							"grin", "bundle", "sweat", "nose", "boring",
+							"torture", "rose", "beggar", "sleep", "sinister"],
+		
+	//普通表情
+	"nomalExpression" : "Normal",
+		
+	//VIP表情
+	"vipExpression" : "VIP",
+		
+	//预置短语
+	//"phraseArr" : [
+					    //"大家好，很高兴见到各位！",
+						//"快点吧，我等到花儿也谢了！",
+						//"冲动是魔鬼，冷静！冷静！",
+						//"您运气真好！",
+						//"天啊！来点好牌吧！",
+						//"玩太小没意思，试试心跳？",
+						//"输钱不输阵，ALL IN！",
+						//"哇！您抢钱啊！",
+						//"玩的就是心跳！",
+						//"快速语句",
+						//"快速语句",
+						//"快速语句",
+						//"快速语句",
+						//"快速语句",
+						//"快速语句",
+						//"快速语句",
+						//"快速语句",
+						//"快速语句"
+						//],
+	"phraseArr" : [
+					"Hello everyone!",
+					"Come on! I don’t have the entire day!",
+					"The impulse is a devil, calm down!",
+					"Wow, it's your lucky day !",
+					"God, give me some better cards, please!",
+					"Are you afraid to bet like a gown-up?",
+					"Here we go! ALL IN!",
+					"Wow，is it even possible?",
+					"That’s how you play like a boss!",
+					"What a hand, huh?!",
+					"Good move!",
+					"What luck!",
+					"Nice try!",
+					"Perfect!",
+					"Thanks!",
+					"Uh huh!",
+				    "Sorry!",
+					"Good luck!"
+	],
+										
+	//今天
+	"today" : "Today",
+		
+	//对不起，您的互动表情剩余次数为0，不能发送！
+	"canotSendForLackOfAmount" : "Sorry, you have used all your emoticons.",
+		
+	/*互动表情描述
+	id,	name,		des 			msg1		msg2							filepath
+	[1, 	"炸弹", 		"炸弹", 		"AAA向BBB扔了一个炸弹。", 		"ABomb.swf"],
+	[2, 	"臭鸡蛋", 	"臭鸡蛋", 	"AAA向BBB扔了一个臭鸡蛋。", 	"BEgg.swf","",""],
+	[3, 	"泼水", 		"泼水", 		"AAA向BBB泼了一壶水。", 			"CWater.swf"],
+	[4, 	"雪球", 		"雪球", 		"AAA向BBB扔了一个雪球。", 		"DSnowBall.swf"],
+	[5, 	"勾手", 		"勾手", 		"AAA与BBB勾了一下小指头。", 	"EHookHand.swf"],
+	[6, 	"握手", 		"握手", 		"AAA与BBB握了一下手。", 			"FShakeHand.swf"],
+	[7, 	"碰杯", 		"碰杯", 		"AAA与BBB干杯庆祝。", 				"GCheers.swf"],
+	[8, 	"猜拳", 		"猜拳", 		"AAA与BBB玩猜拳游戏。", 			"HFingerGuessing.swf"],
+	[9, 	"拥抱", 		"拥抱", 		"AAA与BBB热情拥抱。", 				"IHug.swf"],
+	[10, 	"西红柿", 		"西红柿", 		"AAA向BBB扔了一番茄。", 			"JTomato.swf"], 
+	[11, 	"爱心", 		"爱心", 		"AAA向BBB发了一个爱心", 			"Heart.swf"], 
+	[12, 	"灭火", 		"灭火", 		"AAA向BBB灭火", 			"EliminateFire.swf"], 
+	[13, 	"开枪", 		"开枪", 		"AAA向BBB开了一枪", 			"Fire.swf"],
+	[14, 	"狗咬人", 		"狗咬人", 		"AAA向BBB放了条狗?", 			"DogBite.swf"]
+	*/
+		
+	"configArr" : [
+	//id,name,	des 	msg1		msg2	filepath
+	[1, "Bomb", "Bomb", "AAA threw a bomb on BBB.", "ABomb.swf"],
+	[2, "rotten egg", "rotten egg", "AAA threw a rotten egg in report.", "BEgg.swf"],
+	[3, "Playing water", "water play", "AAA threw water report.", "CWater.swf"],
+	[4, "Snowball", "Snowball", "AAA threw a snowball at BBB.", "DSnowBall.swf"],
+	[5, "Hook", "hook", "AAA gave a report on ganchada.", "EHookHand.swf"],
+	[6, "Join hands", "Join hands", "AAA held hands with BBB.", "FShakeHand.swf"],
+	[7, "Tin-tin", "Tin-tin", "AAA toasted to report.", "GCheers.swf"],
+	[8, "Paper, rock, scissors.", "Paper, rock, scissors.", "AAA threw paper, rock, scissors to report.", "HFingerGuessing.swf"],
+	[9, "Hug", "hug", "AAA report gave a hug.", "IHug.swf"],
+	[10, "tomato","tomato", "AAA threw a tomato at BBB.", "JTomato.swf"],
+	[11, "Heart","Heart","AAA sent BBB a heart.","Heart.swf"],
+	[12, "Fire Extinguisher", "Fire Extinguisher","AAA sent BBB a fire extinguisher emoticon.","EliminateFire.swf"],
+	[13, "", "", "", "Fire.swf"],
+	[14, "Dog","Dog","AAA sent BBB an angry dog.","DogBite.swf"]
+	],
+	
+	//正在等待对方同意（PK赛的，不要了）
+	"waitingForAgree" : "",
+		
+	//对方已接受您的PK请求，5秒后开始比赛。（PK赛的，不要了）
+	"enermyAgreedToPK" : "The player accepted the invitation, the match will start in 5 seconds.",
+		
+	//立即加入
+	"joinNow" : "Enter",
+		
+	//详细信息
+	"detailInfo" : "Details",
+		
+	//加为牌友
+	"addAsFriends" : "Add",
+		
+	//赠送筹码
+	"sendChips" : "Send Chips",
+		
+	//赠送礼物
+	"sendGifts" : "Send gifts",
+		
+	//邀请PK（PK赛的，不要了）
+	"invitePK" : "Invite PK",
+		
+	//互动表情
+	"interfaceExpression" : "Interactive Emoticons",
+		
+	//购买礼物
+	"buyGifts" : "Objects",
+		
+	//赠送筹码给
+	"sendGiftsTo" : "Send Chips to",
+		
+	//余额不足
+	"balanceNotEnaugh" : "Insufficient balance!",
+		
+	//赠送值必须大于0
+	"sendFeeMustOverZero" : "The amount given must be greater than 0.",
+		
+	//买给全桌玩家（不要了）
+	"buyForAllTable" : "buy for all",
+		
+	//买给个别玩家（不要了）
+	"buyForSingle" : "buy for single",
+		
+	//请至少选择一个玩家!
+	"chooseOnePlayerAtLeast" : "choose one player at least!",
+		
+	//当前牌桌没有玩家！
+	"noPlayerOnTable" : "No Players",
+		
+	//所有消息
+	"allMessage" : "All Messages",
+		
+	//好友互动
+	"friendsActivity" : "Friends News",
+		
+	//系统通知
+	"sysytemNotice" : "System Notifications",
+		
+	//支付信息
+	"paymentInfo" : "Payments",
+		
+	//加牌友请求
+	"addAsFriendRequest" : "Add",
+		
+	//一份筹码礼物
+	"aChipGift" : "Chips",
+		
+	//加牌友请求获得通过
+	"allowAddAsFriend" : "Your friend request has been accepted.",
+		
+	//购买vip卡成功
+	"successToBuyVIPCard" : "The VIP card was successfully purchased.",
+		
+	//购买经验卡成功
+	"successToBuyExperienceCard" : "The double experience card was successfully purchased",
+		
+	//购买互动表情包成功
+	"successToBuyInterface" : "You have successfully purchased an Interactive Object package.",
+		
+	//购买礼包成功
+	"successToBuyPackage" : "You successfully purchased the item",
+	
+	//赠送VIP卡成功
+	"successToSendVIPCard" : "The VIP card was successfully sent",
+		
+	//获得赠送的vip卡
+	"getSendedVIPCard" : "You received one VIP card.",
+		
+	//赠送经验卡成功
+	"successToSendExperienceCard" : "The card was successfully sent",
+		
+	//赠送礼包
+	"successToSendPackage" : "Send item",
+		
+	//获得赠送的经验卡
+	"getSendedExperienceCard" : "You received a experience card",
+		
+	//赠送互动表情包成功
+	"successToSendInterface" : "You have successfully sent the interactive object package",
+		
+	//获得赠送的互动表情包
+	"getSendedInterface" : "You have received an interactive emoticon package.",
+		
+	//获得赠送的礼包
+	"getSendedPackage" : "You received a gift.",
+		
+	//ta的个人主页
+	"hisProfile" : "Profile",
+		
+	//在线奖励
+	"onlineReward" : "Online prize",
+		
+	//点击领取(领取奖励)
+	"clickToGetReward" : "Click to Get",
+		
+	//前置解锁
+	"hasLocked" : "Locked",
+		
+	//尚无记录
+	"noRecord" : "No record",
+		
+	//请先选择一个礼物
+	"chooseOneGiftFirst" : "Choose one object first.",
+		
+	//已过期
+	"hasExpired" : "Expired",
+		
+	//第一名：获得XXX筹码
+	"firstPrize" : "First Prize",
+		
+	//第二名：获得XXX筹码
+	"secondPrize" : "Second Prize",
+		
+	//第三名：获得XXX筹码
+	"thirdPrize" : "Third Prize",
+		
+	//获得
+	"gain" : "gain",
+		
+	//对方已拒绝您的PK请求，请稍候再试或邀请其他人！（PK赛的，不要了）
+	"inviteOthers" : "The other player declined your invitation, invite another player or try again!",
+		
+	//PK赛对接出错，请稍后再试（PK赛的，不要了）
+	"wrongOnPK" : "Error when entering the competition! Try later!",
+		
+	//PK赛对接系统出错，请稍后再试（PK赛的，不要了）
+	"wrongOnPKSystem" : "Error when entering the competition! Try later!",
+		
+	//对不起，您的余额不足以进行PK，请充值后再来！（PK赛的，不要了）
+	"toRechargeForPK" : "Sorry, your balance is insufficient to participate in the competition, reload your chips to participate.",
+		
+	//对不起，对方筹码不足，不能进行PK。（PK赛的，不要了）
+	"canotPKForOtherSide" : "Sorry, the player's chips are not enough to enter a competition.",
+		
+	//对方没有接受您的PK请求，请稍候再试或邀请其他人！（PK赛的，不要了）
+	"otherSideNotAccecptYourPK" : "The player did not accept your invitation, try another player!",
+		
+	//系统已经拒绝你的PK请求，可能原因是：1、对方已被邀请进行PK；2、你已邀请了别人进行PK；3、对方正在参加其他比赛。建议您稍后再进行邀请。（PK赛的，不要了）
+	"systemRequestYourPK" : "Could not send the invitation to the duelo.Os reasons can be :1-The player is dueling, 2-Have you ever asked another player to a duel, 3-The player is participating in a duelo.Tente later!",
+		
+	//赠送成功
+	"sendSuccess" : "Successfully sent",
+		
+	//你购买了大家乐
+	"buyHappyPot" : "You bought a jackpot ticket.",
+		
+	//该位置已经有玩家坐下，请选择其他位置
+	"seatHasbeenSeated" : "This seat was already occupied, please choose another seat!",
+	
+	//买入筹码错误，请检查。
+	"wrongOnBuyingChips" : "You were not able to buy the chips, please check your balance",
+		
+	//此房间不存在，请换个房间进入
+	"roomNotExist" : "This table does not exist, please choose another one.",
+		
+	//此坐位不存在，请换个坐位坐下
+	"seatNotExist" : "This seat does not exist, please choose another one.",
+		
+	//您已经坐下了，不能再次坐下。
+	"hasBeenSeated" : "You have already sat down, you can't occupy two seats.",
+		
+	//您已在其他页面登陆了游戏，此页面已失效，请手动关闭或离开此页面！
+	"hasBeenLoadedOnOtherPage" : "You have logged in on another page, this connection will be terminated.",
+	
+	//通讯错误，请刷新页面再继续操作
+	"wrongOnCommunication" : "Communication error, please refresh your browser.",
+		
+	//登入大厅失败，请刷新页面再试一次
+	"failToLoadingGameHall" : "Failed to join the lobby. Please refresh your browser and try again.",
+	
+	//金币不足，购买失败
+	"buyFailedForLackingOfGold" : "You don't have enough coins.",
+		
+	//购买失败，请稍候再试
+	"buyFailedAndTryLater" : "Your purchase failed! please try later!",
+		
+	//更换饰物失败，请稍候再试
+	"changeGiftFailedAndTryLater" : "The object change failed, please try later!",
+		
+	//牌友ID非法，请稍候再试！
+	"illegalID" : "Your friend's ID is invalid, try again later.",
+		
+	//你们已经是牌友了
+	"hasBeenFriends" : "You are already friends!",
+		
+	//ID非法，赠送失败，请稍候再试！
+	"sendFailedForIllegalID" : "Failed to send, please try later!",
+		
+	//您的余额已不足，赠送失败！
+	"sendFailedForLackingOfMoney" : "You don't have enough chips to send!",
+		
+	//因为对方今天接收筹码数量已达上限，赠送失败！
+	"sendFailedForUpperLimit" : "Your friend has reached his daily receiving limit. Unable to send!",
+		
+	//进入该房间失败，请刷新页面再试一次
+	"entryRoomFailedAndRefresh" : "You are unable to join the table, please refresh your browser and try again.",
+		
+	//签到出错，您今天已经签到过了
+	"signFailed" : "Sign in error, you have already signed in today.",
+	
+	//查询签到历史数据出错，请稍后再试。
+	"signHistoryFailed" : "Data error, please try later.",
+		
+	//筹码非法，登陆失败！
+	"illegalChips" : "Illegal chips! Failed to log in.",
+		
+		//无法登陆到服务器，请刷新页面重新登陆
+		"failedToConnectSever" : "Can't connect to the web sever, please refresh your browser and log in again!",
+		
+		//与服务器的连接已经断开，请刷新页面重新登陆！
+		"connetcedWithSeverHasBeenStoped" : "You were unexpectedly  disconnected from the server，please reconnect！You were unexpectedly  disconnected from the server, please refresh your browser!",
+		
+		//与服务器通讯失败，请刷新页面重新登陆！ 
+		"communicationWithSeverFailed" : "Fail to connect server, please refresh your browser!",
+		
+		//锦标赛已经开始
+		"championStartingErr" : "The tournament has already started",
+		
+		//筹码余额不足，不能报名
+		"championNoMoneyErr" : "You don't have enough chips to sign-up",
+		
+		//比赛已结束
+		"championOverErr" : "The tournament has already finished.",
+		
+		//第XX名（锦标赛）
+		"myChampionRank" : "Rank",
+		
+		//冠军（锦标赛）
+		"championshipFirst" : "Champion",
+		
+		//冠军（锦标赛）
+		"championshipFirstShort" : "Champion",
+		
+		//亚军（锦标赛）
+		"championshipSecond" : "Runner-Up",
+		
+		//亚军（锦标赛）
+		"championshipSecondShort" : "Runner-Up",
+		
+		//季军（锦标赛）
+		"championshipThird" : "Third Place",
+		
+		//季军（锦标赛）
+		"championshipThirdShort" : "Third Place",
+		
+		//谢谢参与，下一次比赛更精彩！
+		"championshipLost" : "Way to go! Playing tournaments is the best way to improve your poker skills!",
+		
+		//下局盲注增加为
+		"blindUpToNext" : "The blinds have changed to ",
+		
+		//配桌中，请稍候
+		"championNoTable" : "Loading tables, please wait…",
+		
+		//您未满足领取破产补助的条件或者今天领取补助的次数已达上限
+		"reliefErr" : "You can't get the bankrupt support because you already took it today.",
+		
+		//脏话
+		"swearword_arr" : ["fuck"],
+		
+		//脏话屏蔽之后用什么符号代替
+		"swearwordRep" : "*",
+		
+		//上局回顾
+		"lastPokerScreenBtn" : "Last round",
+		
+		//移动设备的下载网址（不要了，FB不让外链，改用二维码）
+		"mobileDownWeb_arr" : [
+		    "",//iphone版本的下载网址
+		    "",//ipad版本的下载网址
+		    ""//android版本的下载网址
+		],
+		
+		//房间属性已更改
+		"roomPropertyChanged" : "Changes saved",
+		
+		//房名
+		"roomName" : "Name",
+		
+		//请出房间
+		"kickOut" : "Kick player",
+		
+		//本局尚未结束\n本局结束后该玩家才会离开房间.
+		"kickUserTip" : "This round hasn't finished yet.\nThe player will be kicked after the end of this round.",
+		
+		//您被请出房间尚未足够1小时\n进入不了该房间
+		"kickedOutTimeLack" : "You need to wait for one hour until you can join this table again.\nIt's not possible to join this table.",
+		
+		//同意(私人房间是否t人)
+		"kickConfirm" : "OK",
+		
+		//抱歉，您的场外筹码余额不足！不能玩老虎机，请及时充值
+		"lackOfmoneyOnSlot" : "You don't have enough chips",
+		
+		//老虎机系统出错，请稍后再试。
+		"slotSystemError" : "System Error",
+		
+		//抱歉，您需要入座后才能玩老虎机
+		"playAfterSeatDown" : "Sorry, you can only play the slot machine after seated.",
+		
+		//抱歉，老虎机只针对盲注20/40以上的场次房间开放。
+		"playInBlindRoom" : "Sorry, the slot machines are available only on tables with blinds higher than 20/40.",
+		
+		//50万筹码锦标赛
+		"champion50" : "500,000 chips tournament",
+		
+		//100万筹码锦标赛
+		"champion100" : "1 million chips tournament",
+		
+		//200万筹码锦标赛
+		"champion200" : "2 million chips tournament",
+		
+		//500万筹码锦标赛
+		"champion500" : "5 million chips tournament",
+		
+		//1000万筹码锦标赛
+		"champion1000" : "10 million chips tournament",
+		
+		//锦标赛排名
+		"RankTxt" : "myChampionRank zzz",
+		
+		//您的小喇叭剩余个数不足，请到商城购买
+		"speakerLackGoToShoping" : "You don't have loudspeakers left ",
+		
+		//立即购买
+		"goShoping" : "Buy",
+		
+		//您发起投票时间间隔未满60分钟，请稍后再发起投票
+		"voteKickLaunchTimeLack" : "It hasn't been 60 min since the last time you tried to kick a player, please wait.",
+		
+		//同意数: 
+		"agreeNum" : "Yes",
+		
+		//不同意数: 
+		"disagreeNum" : "Not",
+		
+		//您尚未开通VIP会员，请前往商城购买开通
+		"notOpenVipGoBuy" : "You need to be a VIP user to use this function",
+		
+		//您今天的发起投票次数已使用结束，请等到明天再使用此功能。
+		"voteKickCountZeroNextDay" : "You have already used all your expulsion tickets. Wait until tomorrow.",
+		
+		//购买喇叭成功
+		"buySpeakerSuccess" : "Success.",
+		
+		//赠送喇叭成功
+		"sendSpeakerSuccess" : "Successful",
+		
+		//收到赠送的喇叭
+		"receiveSpeakerSuccess" : "Received a gift.",
+		
+		//抱歉，当你只有在普通场坐下时，才能使用该功能
+		"needToSitDownStr" : "Sorry, you can only use the feature after seated on a normal table.",
+		
+		//由于您的场外余额不足，无法给荷官小费.
+		"moneyNotEnough" : "You cannot afford a dealer anymore.",
+		
+		//荷官名（第二个是男的，其他是女的）
+		"cardManNameArr" : ["Andrea","Steven", "Mary", "Pamela", "Jane","Shelly"],
+		
+		//荷官小费感谢语(xxx人名)
+        //谢谢你,xxx
+        //祝你好运,xxx
+        //给小费越多，得AA机会更大哦
+        "cardManThanksStr" : [
+            "Thanks,[NAME]",
+            "I wish you good luck,[NAME]",
+            "If you are superstitious, tipping a little bit more might help"
+        ],
+		
+		//200字符以内
+		"limitWorld200" : "Less than 200 characters",
+		
+		//500字符以内
+		"limitWorld500" : "Less than 500 characters",
+		
+		//输入名字搜索
+		"enterName" : "Type the name (of a player)",
+		
+		//同一IP不能坐下
+		"theSameIPErr" : "You cannot play with 2 accounts at the same table!",
+		
+		//对不起，您的筹码不够不能坐下，请移步其他房间或去商城购买筹码
+		"lessChipsForSeating" : "Sorry! you don't have enough chips to sit down. Please go to other rooms or buy some chips in the store. Thank you!",
+		
+		//内容不能为空
+		"emptyWords" : "The fields Title and Content cannot be empty.",
+		
+		//未找到对手，建议更换赌注
+		"matchNoEqual" : "Another player could not be found. Try changing the value of the bet.",
+		
+	//对方已离开
+	"equalHasGone" : "The other player left.",
+	
+	//余额不足(骰子乐)
+	"diceMoneyNotEnough" : "Insufficient balance!",
+		
+	//系统出错
+	"matchError" : "System Error",
+		
+	//举报成功
+	"reportSuccess" : "Report Submitted",
+		
+	//坐下才能聊天(部分版本不用这个限制，所以缺这个翻译)
+	"sitCanTalk" : "Sorry, you can only chat and send emoticons after seated.",
+		
+	//对方正在处理你的请求，请稍后。
+	"addFriendTip" : "The other player already received a notification. Please wait!",
+		
+	//发送成功，请等待对方。
+	"requestSent" : "Request sent.",
+		
+	//游戏返还参赛费XX筹码，期待下次来玩！
+	"raceMoneyReturn":"The registration fee of yyy chips has been returned. See you next time!",
+		
+	//恭喜您获得本场比赛第三名，获得XX筹码！
+	"receBonusGet":"Congratulations! You finished on the 3rd place and won yyy chips!",
+		
+	//你已举报过该用户
+	"reportAlready" : "You have already reported this player.",
+		
+	//对不起，坐下后才能发送互动表情
+	"sendInterfaceStanding" : "You can only send interactive emoticons after sitting.",
+		
+	//请注意账号安全(部分版本不用这个限制，所以缺这个翻译)
+	"AccountSafetyTip" : "",
+	
+	//你已被禁言，如有任何疑问请联系我们。
+	"chatDisabled" : "The chat feature has been blocked due to violations. If you have any doubts, please contact us.",
+	
+	//你已被禁止使用表情，如有任何疑问请联系我们。
+	"expressionDisabled" : "The emoticons sending feature has been blocked due to violations. If you have any doubts, please contact us.",
+		
+	//你已被禁止使用互动表情，如有任何疑问请联系我们。
+	"interactFaceDisabled" : "The interactive emoticons feature has been blocked due to violations. If you have any doubts, please contact us."
+}

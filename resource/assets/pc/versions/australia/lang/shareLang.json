@@ -1,0 +1,291 @@
+{
+    //筹码
+	"chip" : "Chip",
+	"chips" : "Chips",
+		
+	//皮肤一（职业版）
+	"skin1Name" : "Golden Bellagio",
+		
+	//皮肤二（本地版）
+	"skin2Name" : "Monte Carlo",
+		
+	//皮肤三（默认版）
+	"skin3Name" : "Default Theme",
+		
+	//勋章
+	"coins" : "Coins",
+	"coin" : "Coin",//单数
+	
+	//经验
+	"experience" : "Experience",
+		
+	//等级
+	"level" : "Level",
+	//等级缩写
+	"LV" : "LV",
+		
+	//胜利
+	"winTimes" : "Wins",
+		
+	//失败
+	"loose" : "Losses",
+		
+	//胜率
+	"winRate" : "Win rate",
+		
+	//互动表情
+	"interactFace" : "Interactive emoticons",
+		
+	//充值
+	"reCharege" : "Recharge",
+		
+	//立即充值
+	"reCharegeNow" : "Recharge",
+		
+	//盲注
+	"blinds" : "Blinds",
+		
+	//确定
+	"confirm" : "OK",
+	
+	//取消
+	"cancle" : "Cancel",
+		
+	//已经开始
+	"tableStateStart" : "Playing",
+		
+	//底牌圈(已经发过底牌了，下同，发过牌才显示当前是什么圈)
+	"tableStateHandCard" : "Pre-Flop Betting Round",
+		
+	//翻牌圈
+	"tableStateFlopCard" : "Flop Betting Round",
+		
+	//转牌圈
+	"tableStateTurnCard" : "Turn Betting Round",
+		
+	//河牌圈
+	"tableStateRiverCard" : "River Betting Round",
+		
+	//等待开始
+	"tableStateWaiting" : "Waiting to Begin",
+		
+	//"tableStatePausing" : "暂停中",//测试用
+	"tableStatePausing" : "Inactive",
+		
+	/*"playerStateArr" : ["等待下一轮", //0
+	"等待下注", //1
+	"跟注", //2
+	"加注", //3
+	"弃牌", //4
+	"全下", //5
+	"过牌", //6
+	"庄家", //7
+	"小盲注", //8
+	"大盲注" //9
+	],*/
+	"playerStateArr" : [
+        "Waiting", // 0
+		"Waiting", // 1
+		"Called", // 2
+		"Raised", // 3
+		"Folded", // 4
+		"All in", // 5
+		"Checked", // 6
+		"Dealer", // 7
+		"Small Blind", // 8
+		"Big Blind" // 9
+	],
+		
+	//public static var cardTypeDes" : ["高牌", "一对", "两对", "三条", "顺子", "同花", "葫芦", "四条", "同花顺", "皇家同花顺"],
+	"cardTypeDes" : ["High Card", "One Pair", "Two Pairs", "Three of a Kind", 
+                    "Straight", "Flush", "Full House", "Four of a Kind", "Straight Flush", "Royal Flush"],
+		
+	//下一页
+	"nextPage" : "Next page",
+	
+	//上一页
+	"prevPage" : "Previous page",
+	
+	//购买
+	"buyNow" : "Buy",
+		
+	//以后再说
+	"later" : "Later",
+		
+	//立即邀请
+	"inviteNow" : "Invite Now",
+		
+	//签到成功
+	"signInNow" : "Signed in",
+		
+	//求助好友
+	"forHelp" : "Ask for help",
+		
+	//加牌友
+	"addGameFriend" : "Add",
+		
+	//分享
+	"share" : "Share",
+		
+	//中了大家乐
+	"getHappyPot" : "won the jackpot",
+		
+	//奖金
+	"reward" : "Prize",
+		
+	//对不起！您的余额不足，请及时充值
+	"lackOfMoney" : "Sorry, you don't have enough chips!",
+	
+	//余额不足 不能买入余额不足
+	"lackOfChips" : "Sorry, you don't have enough chips!",
+		
+	//对不起，您的金币余额已不足！
+	"lackOfGolds" : "Sorry, you don't have enough coins!",
+		
+	//抱歉，您的筹码余额不足，不能入座！
+	"noSeatingForLackingOfChips" : "Sorry, you dont have enough chips to join this table.",
+		
+	//刷新网页
+	"refresh" : "Refresh your browser",
+		
+	//集气
+	"gatherLucky" : "Share",
+		
+	//炫耀
+	"show" : "Show cards",
+		
+	//FB币
+	"FBCoins" : "FBC",
+		
+	//时间的冒号(21:30:56)(泰语：如果时分秒都要显示就用冒号，如果只显示时和分就用点号)
+	"timeColon" : ":",
+	//时间的冒号(21:30:56)
+	"timeColon2" : ":",
+		
+	//时间后面追加的字符 比如 21:00  德语表示 21:00Uhr
+	"timeEndStr" : "",
+		
+	//时间前面追加的字符
+	"timeStartStr" : "",
+		
+	//恭喜你，充值成功
+	"rechargeSuccess" : "The recharge was made successfully.",
+		
+	//充值失败
+	"rechargeFailed" : "Recharge failed ",
+		
+	//求助好友
+	"askForFriends" : "Ask for help",
+	
+	//您的勋章余额不足，请前往充值
+	"balanceLess" : "You don't have enough coins, please recharge to proceed.",
+		
+	//请输入密码
+	"pleaseEnterPassword" : "Enter the password.",
+		
+	//密码错误，请确定后重新输入
+	"enterRoomPasswordError" : "Wrong password.",
+		
+	//创建私人房间失败
+	"createPrivateRoomFailed" : "fail to create the private room.",
+		
+	//修改房间属性失败
+	"modifyPropertiesFailed" : "fail to modify room property.",
+		
+	//本房间还剩60分钟到期
+	"lastTime60" : "this table will expire in 60 minutes.",
+		
+	//本房间还剩45分钟到期
+	"lastTime45" : "this table will expire in 45 minutes.",
+		
+	//本房间还剩30分钟到期
+	"lastTime30" : "this table will expire in 30 minutes.",
+		
+	//本房间还剩15分钟到期
+	"lastTime15" : "this table will expire in 15 minutes.",
+		
+	//本房间还剩10分钟到期
+	"lastTime10" : "this table will expire in 10 minutes.",
+		
+	//本房间还剩1分钟到期
+	"lastTime1" : "this table will expire in 1 minutes.",
+		
+	//房间已经到期
+	"lastTime0" : "Your private table expired. Please create a new table to continue.",
+		
+	//输入数字
+	"inputNumber" : "Insert number.",
+		
+	//密码
+	"password" : "Password",
+		
+	//你的牌友XXX邀请您一起玩游戏
+	"invitePlayTogether" : " invited you to play.",
+		
+	//大厅
+	"inHall" : "Lobby",
+	
+	//比赛中
+	"inMatch" : "In the competition",
+	
+	//分割符
+	"Separator" : "**********************************\n",
+		
+	//返回
+	"back" : "Back",
+		
+	//入座
+	"quickSitDown" : "Sit down",
+		
+	//确定要装饰此物品吗？
+	"addGift" : "Are you sure you want to use this item?",
+		
+	//已装饰物品
+	"hasAddGift" : "Item used",
+		
+	//您确实要删除以下牌友么？
+	"sureDelete" : "Are you sure you want to delete?",
+		
+	//百万 复数
+	"millionComplex" : "M",
+		
+	//百万 单数
+	"millionSingle" : "M",
+		
+	//购买时间
+	"buyInTime" : "Purchase",
+		
+	//到期时间
+	"endTime" : "Expiration date",
+		
+	//有效期
+	"valid" : "Valid For",
+		
+	//剩余次数
+	"lastTimes" : "Remaining Emoticons",
+		
+	//vip卡
+	"vipCard" : "VIP Card",
+		
+	//活动卡
+	"bonusCard" : "Bonus Card",
+		
+	//互动表情
+	"emoticonCard" : "Interactive emoticons",
+		
+	//经验卡
+	"expCard" : "Experience Card",
+		
+	//可在房间内对玩家使用互动道具
+	"interExpExplain": "[NUM] Interactive emoticons.\n [NUM] Remaining.",
+		
+	//使用后聊天全服房间内聊天框可见
+	"speakExplain(num:uint)" : "[NUM] loudspeakers.\nAfter used, your message will be seen on all the tables.",
+
+    //建议使用utils，创建各种不同的
+    "timeFormat" :  "",
+
+	"MoneyMarked" : "[CHIP]",
+
+	"CoinMarked" :"[COIN]"
+}

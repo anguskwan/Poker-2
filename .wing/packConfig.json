@@ -1,0 +1,8 @@
+{
+    "maxImageWidth": 2014,
+    "maxImageHeight": 2014,
+    "defaultResPath": "c:\\Users\\user\\Desktop\\Poker_20160919\\resource\\default.res.json",
+    "packGroups": {
+        "preload": true
+    }
+}

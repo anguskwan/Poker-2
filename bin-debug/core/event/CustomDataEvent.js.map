@@ -1,0 +1,1 @@
+{"version":3,"file":"CustomDataEvent.js","sourceRoot":"","sources":["../../../src/core/event/CustomDataEvent.ts"],"names":[],"mappings":"AAAA;IAA8B,mCAAW;IAGrC,yBAAmB,IAAY,EAAE,GAAkB;QAAlB,mBAAkB,GAAlB,UAAkB;QAC/C,kBAAM,IAAI,CAAC,CAAC;QACZ,IAAI,CAAC,IAAI,GAAG,GAAG,CAAC;IACpB,CAAC;;IACL,sBAAC;AAAD,CAAC,AAPD,CAA8B,KAAK,CAAC,KAAK,GAOxC;oBAPK,eAAe;AAOpB"}

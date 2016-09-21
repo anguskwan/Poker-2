@@ -1,0 +1,64 @@
+{
+	"groups": [
+		{
+			"keys": "window_bg_png",
+			"name": "australia"
+		},
+		{
+			"keys": "uiLang_json,sortOfLangue_json,slotLang_json,shareLang_json,gameTableLang_json,gameHallLang_json,feedObject_json,betBallLang_json,activity_json",
+			"name": "lang"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/pc/versions/australia/images/window_bg.png",
+			"type": "image",
+			"name": "window_bg_png"
+		},
+		{
+			"url": "assets/pc/versions/australia/lang/gameHallLang.json",
+			"type": "json",
+			"name": "gameHallLang_json"
+		},
+		{
+			"url": "assets/pc/versions/australia/lang/shareLang.json",
+			"type": "json",
+			"name": "shareLang_json"
+		},
+		{
+			"url": "assets/pc/versions/australia/lang/sortOfLangue.json",
+			"type": "json",
+			"name": "sortOfLangue_json"
+		},
+		{
+			"url": "assets/pc/versions/australia/lang/slotLang.json",
+			"type": "json",
+			"name": "slotLang_json"
+		},
+		{
+			"url": "assets/pc/versions/australia/lang/gameTableLang.json",
+			"type": "json",
+			"name": "gameTableLang_json"
+		},
+		{
+			"url": "assets/pc/versions/australia/lang/activity.json",
+			"type": "json",
+			"name": "activity_json"
+		},
+		{
+			"url": "assets/pc/versions/australia/lang/uiLang.json",
+			"type": "json",
+			"name": "uiLang_json"
+		},
+		{
+			"url": "assets/pc/versions/australia/lang/feedObject.json",
+			"type": "json",
+			"name": "feedObject_json"
+		},
+		{
+			"url": "assets/pc/versions/australia/lang/betBallLang.json",
+			"type": "json",
+			"name": "betBallLang_json"
+		}
+	]
+}

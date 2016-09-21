@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ButtonSkin" width="37" height="27" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,down" >
+	<e:Image includeIn="down" x="0" y="0" source="basic_closeButton_down_png"/>
+	<e:Image includeIn="up" x="0" y="0" source="basic_closeButton_up_png"/>
+</e:Skin>

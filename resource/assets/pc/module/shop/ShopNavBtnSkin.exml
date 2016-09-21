@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopNavBtnSkin" width="118" height="37.5" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up" >
+	<e:Image source="shop_rechargeNavBtn_up_png" includeIn="up" x="0" y="0"/>
+	<e:Image source="shop_rechargeIcon_png" x="11" verticalCenter="0.25" includeIn="up"/>
+</e:Skin>

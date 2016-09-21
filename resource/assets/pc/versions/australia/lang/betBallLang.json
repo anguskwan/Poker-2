@@ -1,0 +1,163 @@
+{
+    //赌球大标题
+    "betBallTitle": "Sports Betting",
+
+    //(提交)投注
+    "betWin": "Place Bet",
+
+    //猜TA赢
+    "win": "Bet win",
+
+    //平局
+    "draw": "Draw",
+
+    //赔率
+    "odds": "Odds",
+
+    //球队
+    "team": "Team",
+
+    //投注额
+    "totalBet": "Bet amount",
+
+    //我的投注
+    "myBets": "My Bets",
+
+    //投注单
+    "betDetail": "Your bet",
+
+    //开赛时间
+    "startTime": "Start time",
+
+    //热门赛事
+    "seasonName": "Popular matches",
+
+    //预期收益
+    "expectReturn": "Potential Returns",
+
+    //最终比分
+    "result": "Result",
+    
+    //奖金
+    "prize": "Prize",
+
+    //领奖
+    "takePrize": "Take the prize",
+
+    //已领取
+    "claimed": "Claimed",
+
+    //未中奖
+    "noPrize": "No prize",
+
+    //无结果
+    "noResult": "No result",
+
+    //无投注单，快去为你支持的球队投注吧！
+    "noOrderStr": "No bets placed yet, start betting on your favorite team!",
+
+    //抱歉，您的投注已经超过本场比赛的投注限额。
+    "limitedStr": "Sorry, the amount you bet exceeds the max. betting amount for this match.",
+
+    //抱歉，投注失败。
+    "orderFailed": "Sorry, your bet failed",
+
+    //抱歉，领奖失败
+    "getPrizeFailed": "Sorry, you failed to win a prize!",
+
+    //抱歉，您的余额不足，请充值。
+    "rechargeStr": "You don't have enough chips. Please recharge.",
+
+    //抱歉，比赛已经开始无法提交投注。
+    "gameStartStr": "Sorry, the match has already started. It is no longer possible to place a bet.",
+
+    //赔率变动，请重新投注。
+    "oddsChanged": "The odds have changed, please place your bet again.",
+
+    //规则
+    "rule": "Rule",
+
+    //竟猜两支球队最终哪支队伍会赢或者平局（不含加时赛、点球）
+    "winLoseRule": "Include the extra time result as the final result for players who bet before the game started.",
+
+    //FAQ问题1 什么是赔率？
+    "FAQquestion1": "Q: What do the odds mean?",
+
+    //FAQ答案1 即猜中比赛结果时，返还给玩家的奖金的比例。根据情况，会不定时调整赔率。
+    "FAQanswer1": "A: The odds are the multiples of the stake when users make a bet on the match. If the \"User\" places a winning bet, the amount of his prize will be the product of the stakes multiplied by the odds. The odds will be adjusted when necessary.",
+    
+    //FAQ问题2 猜中结果了奖金怎么算？
+    "FAQquestion2": "Q: How are the prizes calculated?",
+    
+    //FAQ答案2 猜中奖金=投注金额*赔率
+    "FAQanswer2": "A: The prize will be the result of the amount the user bet multiplied by the odds. The prize will include the original amount the user bet.",
+    
+    //FAQ问题3 怎么领奖？
+    "FAQquestion3": "Q: How do I claim the prize?",
+    
+    //FAQ答案3 到“我的投注”中领取奖励。但游戏发奖时间会比官方公布结果时间有延迟请谅解。
+    "FAQanswer3": "A: Go to \"My Bets\" to claim the prize. The prizes aren't available right after the end of the match, you need to wait for the prize claim time when the results are updated.",
+    
+    //活动版权 活动最终解释权归Artrix。
+    "FAQcopyRight": "All rights reserved to Artrix.",
+    
+    //返回大厅
+    "quit": "Quit",
+    
+    //当前无可投注体育赛事
+    "noGame": "No matches at the moment.",
+    
+    //猜赛果怎么玩？
+    "winLoseMode": "How to bet on a final result?",
+    
+    //比赛结果更新时间. 比赛结果更新后才能领取奖励哦
+    "resultTime": "Match results will be updated at: 23:59. All the prizes can be claimed after the results are updated.",
+    
+    //提交成功！请到“我的投注”查询中奖信息。
+    "betSuccess": "Your bet has been placed! Go to \"My Bets\" to find all of your bets.",
+    
+    //XX（球队)赢
+    "TeamVictory": "[TEAM]'s victory",
+    
+    //恭喜！成功领取奖金XXX！
+    "getPrizeStr": "Congratulations! You won [CHIP] chips!",
+    
+    //赌球领取奖励的feed
+    "betBallGetPrizeFeed_type": "getBetBallPrize",
+    
+    //XX(赛事名字)竞猜开始啦！
+    "betBallGetPrizeFeed_title": "[SEASON] has just started!",
+    
+    //Cool！A队a：b B队 XX1（玩家名字）猜中结果获得XX2筹码，投注开放中，一起来！ 
+    "betBallGetPrizeFeed_name": "[NAME] won [CHIP] chips on the match between [TEAM1] vs. [TEAM2]! Do you have what it takes to win as well?  Come and place your bet to see who understands the most!",
+    
+    //你也试一下你的运气!
+    "betBallGetPrizeFeed_caption": "Come and place your bet as well!",
+    "betBallGetPrizeFeed_imgPath": "betBallGetPrize.jpg",
+    
+    //试试运气
+    "feed_actionText": "Try your luck",
+    
+    //玩家提交投注feed
+    "betBallOrderFeed_type": "betBallOrderFeed",
+    "betBallOrderFeed_title": "",
+    
+    //A队 vs B队, XX（玩家名字）堵CC必胜，不服来战！
+    "betBallOrderFeed_name": "[NAME] bet the [WINTEAM] will win the match between [TEAM1] vs. [TEAM2]. Do you have a better bet to place?",
+    
+    //你也试一下你的运气!
+    "betBallOrderFeed_caption": "Come and place your bet as well!",
+    "betBallOrderFeed_imgPath": "betBallGetPrize.jpg",
+    
+    //足球
+    "football": "Football",
+    
+    //A队 vs B 队，XX（时间）开始的比赛因系统错误导致该场比赛取消，退换本场比赛已投注筹码YY，给您带来不便请谅解。
+    "matchCancel": "Your bet on the match between [TEAM1] vs. [TEAM2] scheduled to start at [TIME] was cancelled due to a system error. The [CHIP] chips you bet have been sent back to you.We are sorry for the inconvenience.",
+    
+    //即将开赛
+    "matchWillStart": "Match is about to start",
+    
+    //选择球队
+    "selectTeam": "Please select a team"
+}

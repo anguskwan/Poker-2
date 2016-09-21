@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.ButtonSkin" states="up,down" minHeight="26" minWidth="92" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width.up="92" height.up="26">
+	<e:Image source="blue_button_down_png" includeIn="down" x="0" y="0"/>
+	<e:Image source="blue_button_up_png" includeIn="up" x="00" y="0"/>
+	<e:Label text="label" size="16" fontFamily="Arial" textAlign="center" width="92" height="26" verticalCenter="0" horizontalCenter="0" verticalAlign="middle"/>
+</e:Skin>

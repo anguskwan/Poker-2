@@ -1,0 +1,85 @@
+{
+	"groups": [
+		{
+			"keys": "shop_getVipBtn_down_png,shop_getVipBtn_up_png,shop_icon_png,shop_rechargeBtn_down_png,shop_rechargeBg_png,shop_itemIcon_png,shop_rechargeIcon_png,shop_rechargeNavBtn_over_png,shop_rechargeNavBtn_up_png,shop_rechargeNavChipIcon_png,shop_rechargeNavCoinIcon_png,shop_rechargeTopBg_png,shop_vipCardIcon_png,shop_rechargeNavBg_png,shop_rechargeNavBtn_down_png",
+			"name": "shop"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/pc/module/shop/images/shop_getVipBtn_down.png",
+			"type": "image",
+			"name": "shop_getVipBtn_down_png"
+		},
+		{
+			"url": "assets/pc/module/shop/images/shop_getVipBtn_up.png",
+			"type": "image",
+			"name": "shop_getVipBtn_up_png"
+		},
+		{
+			"url": "assets/pc/module/shop/images/shop_icon.png",
+			"type": "image",
+			"name": "shop_icon_png"
+		},
+		{
+			"url": "assets/pc/module/shop/images/shop_rechargeBtn_down.png",
+			"type": "image",
+			"name": "shop_rechargeBtn_down_png"
+		},
+		{
+			"url": "assets/pc/module/shop/images/shop_rechargeBg.png",
+			"type": "image",
+			"name": "shop_rechargeBg_png"
+		},
+		{
+			"url": "assets/pc/module/shop/images/shop_itemIcon.png",
+			"type": "image",
+			"name": "shop_itemIcon_png"
+		},
+		{
+			"url": "assets/pc/module/shop/images/shop_rechargeIcon.png",
+			"type": "image",
+			"name": "shop_rechargeIcon_png"
+		},
+		{
+			"url": "assets/pc/module/shop/images/shop_rechargeNavBtn_over.png",
+			"type": "image",
+			"name": "shop_rechargeNavBtn_over_png"
+		},
+		{
+			"url": "assets/pc/module/shop/images/shop_rechargeNavBtn_up.png",
+			"type": "image",
+			"name": "shop_rechargeNavBtn_up_png"
+		},
+		{
+			"url": "assets/pc/module/shop/images/shop_rechargeNavChipIcon.png",
+			"type": "image",
+			"name": "shop_rechargeNavChipIcon_png"
+		},
+		{
+			"url": "assets/pc/module/shop/images/shop_rechargeNavCoinIcon.png",
+			"type": "image",
+			"name": "shop_rechargeNavCoinIcon_png"
+		},
+		{
+			"url": "assets/pc/module/shop/images/shop_rechargeTopBg.png",
+			"type": "image",
+			"name": "shop_rechargeTopBg_png"
+		},
+		{
+			"url": "assets/pc/module/shop/images/shop_vipCardIcon.png",
+			"type": "image",
+			"name": "shop_vipCardIcon_png"
+		},
+		{
+			"url": "assets/pc/module/shop/images/shop_rechargeNavBg.png",
+			"type": "image",
+			"name": "shop_rechargeNavBg_png"
+		},
+		{
+			"url": "assets/pc/module/shop/images/shop_rechargeNavBtn_down.png",
+			"type": "image",
+			"name": "shop_rechargeNavBtn_down_png"
+		}
+	]
+}

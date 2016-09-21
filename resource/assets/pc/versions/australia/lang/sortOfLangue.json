@@ -1,0 +1,245 @@
+{
+    //（没用了====）每日领取奖励描述 MyInfo.as
+	"LangueSort1" : "",
+		
+	//（没用了====）您确定要退出PK赛吗？\n提示：PK赛已经开始，中途退出视为投降，参赛费xx不退回 GameTable.as
+	"LangueSort2":"",
+		
+	//xx以KK牌型获得YY筹码  Seat.as
+	"LangueSort3" : "[USERNAME] won [CHIP] chips with a kkk",
+		
+	//成功领取$chips FansAward.as
+	"LangueSort4" : "Congrats! You won [CHIP] chips",
+		
+	//xx的牌友  Friends.as
+	"LangueSort5" : "[USERNAME]'s friends",
+		
+	//x周前  FriendWindow.as
+	"LangueSort6" : [
+        "[NUM] week",
+        "[NUM] weeks"
+    ],
+		
+	//x天前  FriendWindow.as
+	"LangueSort7" : [
+        "[NUM] day",
+        "[NUM] days"
+    ],
+
+	//x年前  FriendWindow.as
+	"LangueSort8" : [
+        "[NUM] year",
+        "[NUM] years"
+    ],
+		
+	//x月前  FriendWindow.as
+	"LangueSort9" : [
+        "[NUM] month",
+        "[NUM] months"
+    ],
+		
+	//剩余次数：xx（互动表情）InterfaceBoard.as 
+	"LangueSort10":"Remaining Emoticons: [NUM]",
+		
+	//（没用了====）xx秒后自动拒绝  WindowBeInvitePK.as
+	"LangueSort11":"",
+	//（没用了====）xx邀请你在kk场进行PK，是否同意？将扣除参赛费NN筹码。 WindowBeInvitePK.as
+	"LangueSort12" : "",
+	//（没用了====）邀请xx在kk场进行PK  WindowInvitingPK.as
+	"LangueSort13" : "",
+		
+	//包括手续费共需要$xx筹码+extraMsg   SendChipBoard.as
+	"LangueSort14" : "[CHIP] chips are needed (includes service fee) [MSG]",
+		
+	//xx请求加您为牌友   SMsgWindow.as
+	"LangueSort15" : "[USERNAME] wants to add you as a friend.",
+		
+	//xx赠送了yy筹码给您
+	"LangueSort16" : [
+        "[USERNAME] sent [CHIP] chip to you.",
+        "[USERNAME] sent [CHIP] chips to you."
+    ],
+
+	//xx通过了您加Ta为牌友的请求。   SMsgWindow.as
+	"LangueSort17" : "[USERNAME] has just added you as a friend.",
+		
+	//恭喜，购买成功，道具已放入个人物品道具栏。   SMsgWindow.as
+	"LangueSort18" : "Congratulations you have purchased a [CHIP].",
+		
+	//恭喜您！成功购买iFaceObj.name ，获得了+ iFaceCount +个互动表情（这句话要一个个翻译的拼）
+	"LangueSort19" : "Congratulations, you have purchased a [USERNAME].",
+	
+	//恭喜你，成功购买XX + chestObj.name,  SMsgWindow.as
+	"LangueSort20" : "Congratulations The purchase of the [USERNAME].",
+		
+	//您成功赠送了一张 cardname给nickname ，有效期到CardToDate
+	"LangueSort21" : "You have sent a [THING] to: [USERNAME].",
+		
+	//您获得了一张 nickname赠送的cardname，有效期到CardToDate
+	"LangueSort22" : "You received a [THING] from [USERNAME].",
+		
+	//您成功赠送一个chestname 给nickname
+	"LangueSort23" : "You have sent a [THING] to: [USERNAME].",
+		
+	//您成功赠送了iFaceObj.name 给 nickname
+	"LangueSort24" : "You have sent [THING] to: [USERNAME].",
+		
+	//您获得了nickname赠送的 xx
+	"LangueSort25" : "You received [THING] from [USERNAME].",
+		
+	//您将添加 XX 为牌友
+	"LangueSort26" : "[USERNAME] as friend",
+		
+	//每天totalTimes次赠送机会，今天还有remainTimes 次赠送机会
+	//每天xx次赠送机会，今天还有kk次赠送机会
+	"LangueSort27" : "[NUM] opportunities per day today remains [NUM] opportunity",
+		
+	//xx天后过期([NUM])
+	"LangueSort28" : "Expires [NUM]D",
+		
+	//xx小时后过期
+	"LangueSort29" : "Expires [NUM]H",
+		
+	//xx分钟后过期
+	"LangueSort30" : "Expires [NUM]M",
+		
+	//将扣除[USERNAME]筹码
+	"LangueSort31" : "[CHIP] chips",
+		
+	//成功赠送了xx筹码！
+	"LangueSort32" : "You have sent [CHIP] chips!",
+		
+	//"成功赠送了 sucMoney + "筹码！由于对方接收筹码限制，有failMoney"筹码赠送失败。",
+	"LangueSort33" : "You have sent [SUCCHIP] chips!the [FAILCHIP] chips could not be sent because it exceeds the limit accepted.",
+		
+	//playerName + " 获得成就 " + achievementObj.name + "赢得奖金 $" + StringUtil.formatNumber(String(award))
+	"LangueSort34" : "[NAME] has reached the level [ACH],won bonus [CHIP]",
+		
+	//playerName 欢迎！\n请等待本局结束。"
+	"LangueSort35" : "Welcome [USERNAME]!\nWait until the next round.",
+		
+	//"淘汰赛 " + raceName + "\n正在火热进行中，是否加入？
+	"LangueSort36" : "The Championship\n [RACE]\nwill start!",
+		
+	//nickname + " 已经是您的牌友，不能重复添加
+	"LangueSort37" : "[NAME] is already your friend, can not re-add.",
+		
+	//离开始还有02:00（锦标赛）
+	"LangueSort38" : "[TIME] left until the tournament begins",
+		
+	//恭喜成功领取。
+	"LangueSort39" : "Congratulations! You won: [THING]",
+		
+	//恭喜您获得奖金XX筹码
+	"LangueSort40" : "Congratulations! You won [CHIP] chips!",
+		
+	//XXXX年XX月XX日 或者 XX月XX日(建议写个工具）
+	"LangueSort41": "",
+		
+	//距离开赛还有X天00:00:00(挑战赛)
+	"LangueSort42":"",
+
+	//显示获胜的牌型（桌子上）:
+	//手牌
+	"LangueSort43" : " [MSG]",
+		
+	//您确定请玩家[USERNAME]离开房间？
+	"LangueSort44" : "Are you sure you want to expel [NAME]?",
+		
+	//您被房主[USERNAME]请出房间 1小时内不能再次进入该房间
+	"LangueSort45" : "You have been banned by [NAME]. You can not enter the room for 1 hour.",
+		
+	//尊敬的会员，您好！今天您获得会员卡赠送$5,000筹码.
+	"LangueSort46" : "Dear player! You received [CHIP] chips from your Bonus Card today!",
+		
+	//玩家[USERNAME]对YYY发起请出房间投票，是否同意YYY离开房间？
+	"LangueSort47" : "[NAME] wants to expel [NAME2] this table. you agree?",
+		
+	//您被XX号房间投票请出房间
+	"LangueSort48" : "You've been kicked (a) of the table [ROOMID].",
+		
+	//对[USERNAME]请出房间投票结果
+	"LangueSort49" : "Vote to evict [NAME]:",
+		
+	//XX被请出房间成功/失败
+	"LangueSort50" : [
+		"[NAME] was expelled from this table.",
+		"[NAME] not been expelled from this table."
+	],
+		
+	//本房间每局消耗[USERNAME]筹码
+	"LangueSort51" : "[CHIP] chips are needed every round to play at this table",
+		
+	//今日还可赠送xx 手续费5%
+	"LangueSort52" : "Daily Amount Still Available to Send: [CHIP]\nService Fee: 5%",
+		
+	//下一局盲注将增加为: 20/30
+	"LangueSort53" : "",
+		
+	//筹码" + awardMoney + " + 金币" + awardGold 
+	"LangueSort54" : "",
+		
+	//xx赢得$xx
+	"LangueSort55" : "won",
+		
+	//xx全下$xx
+	"LangueSort56" : "[NAME] All-in [CHIP].",
+		
+	//确认消耗3000筹码抽奖一次
+	"LangueSort57" : "Do you wish to buy an extra spin for [CHIP] chips?",
+		
+	//游戏状态窗玩家状态
+	"LangueSort58": "",
+		
+	//小喇叭发言全服聊天框可见。 小喇叭剩余个数为X
+	"LangueSort59" : "All the tables can see messages sent on loud speakers. Loudspeakers left: [NUM]",
+		
+	//X天
+	"LangueSort60" : "",
+		
+	//购买下局大家乐XX
+	"LangueSort61" : "Buy a Jackpot ticket for the next hand - [CHIP] chips",
+		
+	//购买每局大家乐XX钱
+	"LangueSort62" : "Buy a Jackpot ticket for every hand - [CHIP] chips x # of tickets",
+		
+	//系统自动弃牌剩余次数：X
+	"LangueSort63" : "Rounds Allowed to be Away: <font color='#FF7C06'>[NUM]</font>",
+		
+	//X周
+	"LangueSort64" : "",
+		
+	//X月
+	"LangueSort65" : "",
+		
+	//xx筹码(有些版本的筹码放数值前面，下面金币一样)
+	"LangueSort66" : "",
+		
+	//xx金币
+	"LangueSort67" : "",
+		
+	//已经选了10个从列表20人里
+	//count + "选中" + "/" + totalCount + "牌友"
+	"LangueSort68" : "[NUM] Select /[NUM2] Friends",
+		
+	//playerObj.nickname + "加入牌局
+	"LangueSort69" : "",
+		
+	//X小时X分钟
+	"LangueSort70" : "",
+		
+	//您好，系统将在3分钟后停机维护（停机2分钟)，为避免下注筹码丢失，请尽快完成本局游戏并返回大厅，给您带来不便，敬请谅解
+	"LangueSort71" : "Dear user! Our servers will go through scheduled maintenance for [TIME] minutes soon. In order to avoid chip losses, we recommend you to stop playing and go back to the Lobby. Sorry for the inconvenience!",
+		
+	//对某某某玩家进行举报
+	"LangueSort72" : "Report [NAME]",
+		
+	//每周X(五)晚上21：30开赛
+	"LangueSort73" : "The weekly tournament is hold every Friday at [TIME]",
+		
+	//充值成功，XX筹码和YY积分已入账户
+	"LangueSort74" :[
+ 		"Your purchase was successfully made! You have already received [CHIP] chips and [POINT] points!",
+		"Your purchase was successfully made! You have already received [COIN] coins and [POINT] points!"
+	]
+}

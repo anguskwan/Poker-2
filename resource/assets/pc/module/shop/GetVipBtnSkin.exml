@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GetVipBtnSkin" width="130" height="45" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,down"  width.up="130" height.up="45" width.down="130" height.down="45">
+	<e:Image source="shop_getVipBtn_over_png" includeIn="down" x="0" y="0"/>
+	<e:Image source="shop_getVipBtn_up_png" includeIn="up" x="0" y="0"/>
+	<e:Label text="VIP" textColor="0x834d2a" size="20" verticalCenter="0" horizontalCenter="0"/>
+</e:Skin>

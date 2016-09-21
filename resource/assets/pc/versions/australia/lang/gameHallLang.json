@@ -1,0 +1,246 @@
+{
+	//VIP房
+	"vipRoom" : "VIP Tables",
+		
+	//私人场
+	"privateRoom" : "Private Tables",
+	
+	//新手房
+	"newerRoom" : "Beginner",
+		
+	//初级房
+	"primaryRoom" : "Intermediate",
+		
+	//中级房
+	"intermediateRoom" : "Advanced",
+		
+	//高级房
+	"advancedRoom" : "Professional",
+		
+	//快速房
+	"fastRoom" : "Fast Tables",
+		
+	//初级
+	"primary" : "Beginner",
+		
+	//中级
+	"intermediate" : "Intermediate",
+		
+	//行家级
+	"expert" : "Amateur",
+		
+	//高手级
+	"master" : "Advanced",
+		
+	//大师级
+	"bigMaster" : "Professional",
+		
+	//赌圣级
+	"gamblersGod" : "Master",
+		
+	//PK赛级（不要了）
+	"PKRace" : "PK race",
+		
+	//ID
+	"ID" : "ID",
+		
+	//房间
+	"room" : "Table",
+		
+	//小/大盲注
+	"SmallOrBigBlind" : "Small/Big Blind",
+		
+	//玩家人数
+	"playerNum" : "Players",
+		
+	//最小最大买入
+	"minMaxBuyIn" : "Min/Max Buy-in",
+		
+	//参赛费（淘汰赛）
+	"entryFee" : "Entry Fee",
+		
+	//服务费（淘汰赛）
+	"serviceFee" : "Service Fee",
+		
+	//玩了xx局
+	"playedGamesRound" : "Round",
+		
+	//局数
+	"gameRounds" : "Rounds",
+		
+	//所有玩家
+	"allPlayers" : "All players",
+		
+	//我的好友
+	"myFriends" : "My friends",
+		
+	//大家乐详情
+	"detailOfHappyTogether" : "Jackpot",
+		
+	//基本玩法
+	"basic" : "Basic Rules",
+		
+	//比牌规则
+	"rules" : "Hand Rules",
+		
+	//彩池分配
+	"allocation" : "Pot Distribution",
+		
+	//游戏流程
+	"flow" : "Game Flow",
+		
+	//游戏举例
+	"example" : "Example",
+		
+	//操作介绍
+	"interfaceHelp" : "Interface",
+		
+	//名词解释
+	"definition" : "Definition",
+		
+	//比赛须知
+	"notice" : "Notes",
+		
+	//锦标赛
+	"champion" : "Daily Tournaments",
+		
+	//挑战赛
+	"championWeek" : "Weekly Tournament",
+		
+	//锦标赛的类型
+	//"championshipName_arr" : ["50万筹码锦标赛", "100万筹码锦标赛","200万筹码锦标赛"],
+	"championshipName_arr" : ["500,000 Championship", "1,000,000 Championship", "2,000,000 Championship"],
+		
+	//锦标赛前5分钟提示文字
+	/*"championshipReadyStart_arr" : [
+	   "您报名的50W筹码锦标赛即将开赛，请提前进入比赛",
+	   "您报名的100W筹码锦标赛即将开赛，请提前进入比赛",
+	   "您报名的200W筹码锦标赛即将开赛，请提前进入比赛"
+	 ],*/
+	"championshipReadyStart_arr" : [
+		"The 500,000 chips tournament you are signed up for is beginning. Please enter the room now to participate in the tournament.", 
+		"The 1,000,000 chips tournament you are signed up for is beginning. Please enter the room now to participate in the tournament.", 
+		"The 2,000,000 chips tournament you are signed up for is beginning. Please enter the room now to participate in the tournament."
+		],
+		
+	//开赛时间(锦标赛)
+	"championshipTime" : "Beginning",
+	
+	//参赛费(锦标赛)
+	"championshipCost" : "Participation Fee",
+		
+	//参赛人数（锦标赛）
+	"championshipPlayerTotal" : "Players",
+		
+	//新手任务
+	"newerTask" : "Task for new players ",
+		
+	//日常任务
+	"dailyTask" : "",
+		
+	//已完成任务
+	"finishedTask" : "",
+		
+	//已领取
+	"getTaskReward" : "",
+		
+	//任务名字（标题）
+	"taskName" : "Title",
+		
+	//任务奖励
+	"taskReward" : "Prize",
+		
+	//(总礼包)名称
+	"taskTotalName" : "Prize",
+		
+	//完成所有新手任务
+	"taskTotalTarget" : "Goal",
+		
+	//通过新手任务了解游戏的大部分基本功能
+	"taskTotalDesc" : "Now you are able to fully understand the main functions of the game! Congratulations!",
+		
+	//锦标赛的跑马灯
+	/*"championBroadcast_arr" : [
+		"号外！号外！50万筹码锦标赛即将开赛，心动不如行动，赶紧去报名！",
+		"号外！号外！100万筹码锦标赛即将开赛，心动不如行动，赶紧去报名！",
+		"号外！号外！200万筹码锦标赛即将开赛，心动不如行动，赶紧去报名！"
+	],*/
+	"championBroadcast_arr" : [
+		"Hello to all of the players! The 500,000 Chips Tournament will begin soon! If you want to participate, sign up right now!", 
+		"Hello to all of the players! The 1,000,000 Chips Tournament will begin soon! If you want to participate, sign up right now!", 
+		"Hello to all of the players! The 2,000,000 Chips Tournament will begin soon! If you want to participate, sign up right now!"
+	],
+		
+	//挑战赛前5分钟提示文字:"您报名的挑战赛即将开赛，请提前进入比赛"
+	"championWeekReadyStart" : "Dear user, the tournament you have previously signed up for is about to begin. Please sign in and be ready.",
+		
+	//挑战赛的跑马灯:"号外!号外!500万筹码挑战赛即将开赛，心动不如行动，赶紧去报名!"
+	"championWeekBroadcast_arr" : [
+		"Hello Players! The 5,000,000 tournament will start soon! If you want to participate sign up right now!",
+		"Hello Players! The 10,000,000 tournament will start soon! If you want to participate sign up right now!"
+	],
+		
+	//继续旁观
+	"lookOn" : "Watch it",
+		
+	//返回大厅
+	"championToHall" : "Return to Lobby",
+		
+	//新(任务)
+	"taskNew" : "",
+		
+	//已完成(任务)
+	"taskFinished" : "",
+		
+	//上一场锦标赛冠军
+	"preChampionMale" : "The Last Champion",	
+	"preChampionFemale" : "The Last Champion",
+	
+	//商城（TopView上面按钮注释）
+	"shop" : "Store",
+		
+	//粉丝页
+	"fansPage" : "Fan Page",
+		
+	//保险箱
+	"safeBox" : "Safe Box",
+		
+	//在线牌友
+	"onlineFriend" : "Online Friends",
+		
+	//反馈
+	"feedBack" : "Feedback",
+		
+	//系统消息
+	"systemMsg" : "Notifications",
+		
+	//更换（皮肤）
+	"changeSkin" : "Change Skin",
+		
+	//设置
+	"setting" : "Settings",
+		
+	//全屏
+	"fullScr" : "Fullscreen",
+		
+	//此牌友为Facebook好友，无法在游戏中删除。
+	"isFaceBookFriend" : "This person cannot be deleted because he or she is also your Facebook friend.",
+		
+	//更换（皮肤）
+	"changeSkinBtn" : "Change Skin",
+		
+	//皮肤下载完毕是否立即更换
+	"changeSkinNow" : "Download finished. Change skin now?",
+		
+	//皮肤还在下载中，请稍等
+	"waitSkinDown" : "Downloading, please wait!",
+		
+	//速度
+	"roomSpeed" : "Speed",
+		
+	//快速
+	"roomFast" : "Fast",
+		
+	//普通
+	"roomNormal" : "Normal"
+}

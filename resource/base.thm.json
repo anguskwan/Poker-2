@@ -1,0 +1,19 @@
+{
+  "skins": {
+    "eui.Button": "resource/assets/pc/component/Button/ButtonSkin.exml",
+    "eui.CloseButton": "resource/assets/pc/component/Button/CloseButtonSkin.exml",
+    "eui.CheckBox": "resource/assets/pc/component/CheckBox/CheckBoxSkin.exml",
+    "eui.HScrollBar": "resource/assets/pc/component/ScrollBar/HScrollBarSkin.exml",
+    "eui.HSlider": "resource/assets/pc/component/Slider/HSliderSkin.exml",
+    "eui.Panel": "resource/assets/pc/component/Panel/PanelSkin.exml",
+    "eui.TextInput": "resource/assets/pc/component/TextInput/TextInputSkin.exml",
+    "eui.ProgressBar": "resource/assets/pc/component/ProgressBar/ProgressBarSkin.exml",
+    "eui.RadioButton": "resource/assets/pc/component/RadioButton/RadioButtonSkin.exml",
+    "eui.Scroller": "resource/assets/pc/component/ScrollerBar/ScrollerSkin.exml",
+    "eui.ToggleSwitch": "resource/assets/pc/component/ToggleSwitch/ToggleSwitchSkin.exml",
+    "eui.VScrollBar": "resource/assets/pc/component/ScrollBar/VScrollBarSkin.exml",
+    "eui.VSlider": "resource/assets/pc/component/Slider/VSliderSkin.exml",
+    "eui.ItemRenderer": "resource/assets/pc/component/ItemRenderer/ItemRendererSkin.exml"
+  },
+  "autoGenerateExmlsList": false
+}

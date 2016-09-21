@@ -1,0 +1,174 @@
+{
+    //2幸运筹码
+    "MoneyFeed_LuckyChips_type": "MoneyFeed_LuckyChips",
+    "MoneyFeed_LuckyChips_title": "",
+    "MoneyFeed_LuckyChips_name": "Free chips to play poker! ",
+    "MoneyFeed_LuckyChips_caption": "COME AND PLAY POKER",
+    "MoneyFeed_LuckyChips_imgPath": "LuckyChips.png",
+    "MoneyFeed_LuckyChips_actionText": "Receive chips",//领取奖励
+    "MoneyFeed_LuckyChips_Properties": [],//["一起玩德州撲克", "去試試手氣"],
+    
+    //3特殊牌红利
+    "MoneyFeed_SpecialCards_type": "MoneyFeed_SpecialCards",
+    "MoneyFeed_SpecialCards_title": "",
+    "MoneyFeed_SpecialCards_name": "[NAME] won with [CARDDES] in poker!",
+    "MoneyFeed_SpecialCards_Properties": [],//["一起玩德州撲克", "去試試手氣"]
+    "MoneyFeed_SpecialCards_imgPath": "SpecialCards[CARDID].png",
+    "MoneyFeed_SpecialCards_actionText": "Play",//加入游戏
+    
+    //5获得成就
+    "MoneyFeed_GetAchievement_type": "MoneyFeed_GetAchievement",
+    
+    //7连续赢5局以上
+    "MoneyFeed_Win5Rounds_type": "MoneyFeed_Win5Rounds",
+    "MoneyFeed_Win5Rounds_title": "",
+    "MoneyFeed_Win5Rounds_name": "[NAME] won five straight games in poker!",
+    "MoneyFeed_Win5Rounds_caption": "Click and earn up to one million in poker!",
+    "MoneyFeed_Win5Rounds_imgPath": "Win5Rounds.png",
+    "MoneyFeed_Win5Rounds_actionText": "Enter",//领取奖励
+    
+    //8连续输10局以上
+    "MoneyFeed_Lose10Rounds_type": "MoneyFeed_Lose10Rounds",
+    "MoneyFeed_Lose10Rounds_title": "",
+    "MoneyFeed_Lose10Rounds_name": "[NAME] lost 10 straight rounds in Poker! It is very unlucky!",
+    "MoneyFeed_Lose10Rounds_imgPath": "Lose10Rounds.png",
+    "MoneyFeed_Lose10Rounds_actionText": "Play",//集气
+    "MoneyFeed_Lose10Rounds_Properties": [],//["帮他集气", "一起玩德州扑克"]
+    
+    //9个人最高纪录
+    "MoneyFeed_NewRecord_type": "MoneyFeed_NewRecord",
+    "MoneyFeed_NewRecord_title": "",
+    "MoneyFeed_NewRecord_name": "[NAME] broke his own record! won [CHIP] in poker",
+    "MoneyFeed_NewRecord_Properties": [],//["挑战他 一起玩德州扑克"]
+    "MoneyFeed_NewRecord_imgPath": "NewRecord.png",
+    "MoneyFeed_NewRecord_actionText": "Enter",//加入游戏
+    
+    //11比赛获得名次
+    "MoneyFeed_GetAwardInCompete_type": "MoneyFeed_GetAwardInCompete",
+    "MoneyFeed_GetAwardInCompete_title": "",
+    //在淘汰赛中勇夺冠军，为了庆祝，他给你准备 一份特殊红利
+    "MoneyFeed_GetAwardInCompete_name": "[NAME] won first place in the Sit and Go tournament, and is sending you free chips to play with you",
+    //点击最高获得 $100W 红利！
+    "MoneyFeed_GetAwardInCompete_caption": "Click and earn up to one million!",
+    "MoneyFeed_GetAwardInCompete_imgPath": "GetAwardInCompete.png",
+    "MoneyFeed_GetAwardInCompete_actionText": "Receive chips",//领取奖励
+    "MoneyFeed_GetAwardInCompete_Properties": [],//["挑战他","玩德州扑克"]
+    
+    //12玩家筹码不够
+    "MoneyFeed_OutOfChips_type": "MoneyFeed_OutOfChips",
+    "MoneyFeed_OutOfChips_title": "",
+    //余额不足！xxx已经沦为乞丐，我需要你的帮助
+    "MoneyFeed_OutOfChips_name": "[NAME] Poker went bankrupt in poker. Enter the game and help",
+    "MoneyFeed_OutOfChips_imgPath": "OutOfChips.png",
+    //return nickname + "余额不足！已经沦为乞丐，正等着你来帮助他"
+    "MoneyFeed_OutOfChips_caption": "",
+    "MoneyFeed_OutOfChips_actionText": "Play and help",//去帮他
+    
+    //13大家乐祝福
+    "MoneyFeed_CongraHappyTogether_type": "MoneyFeed_HappyTogetherShare",
+    "MoneyFeed_CongraHappyTogether_title": "",
+    //nickname + 恭喜 + toNickName + "获得大家乐奖金" + money
+    "MoneyFeed_CongraHappyTogether_name": "[NAME] congratulated [NAME2] for winning [CHIP] from the Jack Pot.",
+    "MoneyFeed_CongraHappyTogether_caption": "Become a millionaire by winning the Jack Pot!",//想要获得1000万就买大家乐
+    "MoneyFeed_CongraHappyTogether_imgPath": "CongraHappyTogether.png",
+    "MoneyFeed_CongraHappyTogether_actionText": "congratulate",//立刻參與
+    
+    //15领奖分享
+    "NormalFeed_LoginAward_type": "NormalFeed_LoginAward",
+    "NormalFeed_LoginAward_title": "",
+    "NormalFeed_LoginAward_name" : "",//nickname + "领奖成功！获得"+ money + "筹码！",
+    "NormalFeed_LoginAward_caption": "",//邀请好友越多，奖金越丰厚，赶快行动！
+    "NormalFeed_LoginAward_imgPath": "LoginAward.png",
+    "NormalFeed_LoginAward_actionText": "",//立即领奖
+
+    //16老玩家完成引导首次领奖分享
+    "NormalFeed_LoginAward_name2": "",//我刚刚更新了 德州扑克
+    //新版本快速入口更便捷、至尊个人信息面板，每日领奖更丰厚，快来和我一起体验吧！
+    "NormalFeed_LoginAward_caption2": "",
+    "NormalFeed_LoginAward_actionText2": "",//马上体验
+
+    //18锦标赛冠军专区
+    "Championship_name": "",//哇！你获得德州扑克锦标赛冠军了耶！恭喜！不愧是高手！
+    "Championship_caption": "",//一起玩德州扑克
+    //"Championship_imgPath" : "Championship.png",
+    "Championship_actionText": "",//马上体验
+    
+    //19大家乐feed
+    "HappyTogetherTip_type": "HappyTogetherTip_type",
+    "HappyTogetherTip_title": "",
+    //我获得大家乐奖金money
+    "HappyTogetherTip_name" : "I won [CHIP] The Lottery poker!",
+    //"HappyTogetherTip_caption" : "想要获得1000万就买大家乐！",
+    "HappyTogetherTip_caption": "Earn millions of free chips to take a strong hand in poker!",
+    "HappyTogetherTip_imgPath": "HappyTogetherTip.png",
+    "HappyTogetherTip_actionText": "play",//去买大家乐
+    "HappyTogetherTip_Properties": [],//["恭喜Ta","玩德州扑克"]
+    
+    //20五步骤奖励feed
+    "FiveStepAward_type": "FiveStepAward_type",
+    "FiveStepAward_title": "",
+    //userName+"赢得奖励2W，Ta给你准备一份特殊红利！"
+    "FiveStepAward_name" : "[NAME] completed the 5 easy steps and won 20,000 chips!",
+    "FiveStepAward_imgPath": "FiveStepAward.png",
+    //"FiveStepAward_actionText" : "获得奖励",
+    "FiveStepAward_actionText": "Play!",
+    //"FiveStepAward_Properties" :  ["一起玩德州扑克","去试试手气 "],
+    "FiveStepAward_Properties": [],
+    
+    //21锦标赛feed
+    "ChampionshipRank_type": "ChampionshipRank_type",
+    "ChampionshipRank_title": "",
+    //"XX荣获锦标赛第一名，赢得大奖XX万！"
+    //"XX荣获锦标赛第二名，赢得大奖XX万！" 
+    //"XX荣获锦标赛第三名，赢得大奖XX万！"
+    //"XX击败了**%选手，荣获锦标赛第*名！"
+    "ChampionshipRank_name" : [
+        "[NAME] won the tournament [CHIP] chips in Poker Australia!",
+        "[NAME] ranked second in tournament in Poker Australia and won [CHIP] chips!",
+        "[NAME] ranked third in tournament in Poker Australia and won [CHIP] chips!",
+        "[NAME] eliminated [NUM]% Poker Tournament in Poker Australia, became in [RANK] place!"
+    ],
+    //"ChampionshipRank_caption" : " 体验巅峰对决快来锦标赛！ ",
+    "ChampionshipRank_caption": "Prove you're good at poker and participate in the Million Tournament! ",
+    "ChampionshipRank_imgPath" : [
+        "ChampionshipRankFrist.png",
+        "ChampionshipRankSecond.png",
+        "ChampionshipRankThird.png",
+        "ChampionshipRank.png"
+    ],
+    //"ChampionshipRank_actionText" : "立即挑战",
+    "ChampionshipRank_actionText": "Participate",
+    
+    //22领取在线奖励4次后出发feed
+    "GetFourAward_type": "GetFourAward_type",
+    "GetFourAward_title": "",
+    //"GetFourAward_name" : "新的一天从【德州扑克】开始！",
+    "GetFourAward_name": "I just started playing on Poker Australia!",
+    //"GetFourAward_caption" : "我正在玩超人气德州扑克，只要你来就能领取最高100W奖金！",
+    "GetFourAward_caption": "Join me and let's have some fun!",
+    "GetFourAward_imgPath": "GetFourAward.png",
+    //"GetFourAward_actionText" : "领取奖励",
+    "GetFourAward_actionText": "Get free chips",
+    
+    //24新手大礼包feed   
+    "NoviceSpree_type": "NoviceSpree_type",
+    "NoviceSpree_title": "",
+    //"NoviceSpree_name" : "我今天心情好，送了一份红利给你！",
+    "NoviceSpree_name": "I'm in a good mood today!",
+    //我获得大奖分给大家，马上来领取噢
+    "NoviceSpree_caption" : "[NAME] won awards in poker and Poker is sending you free chips!",
+    "NoviceSpree_imgPath": "NoviceSpree.png",
+    //"NoviceSpree_actionText" : "领取奖品",
+    "NoviceSpree_actionText": "receive",
+    
+    //25大转盘feed
+    "LuckyWheel_type": "LuckyWheel_type",
+    "LuckyWheel_title": "",
+    //"LuckyWheel_name" : "幸运转盘，好运连连",
+    "LuckyWheel_name": "Lucky Strike!",
+    //"LuckyWheel_caption" : "我很幸运在德州扑克游戏中活动丰厚的奖品",
+    "LuckyWheel_caption": "I just got free chips spinning the wheel of fortune! Try your luck too!",
+    "LuckyWheel_imgPath": "LuckyWheel.png",
+    //"LuckyWheel_actionText" : "试试运气",
+    "LuckyWheel_actionText": "Try your luck"
+}

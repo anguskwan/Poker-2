@@ -1,0 +1,15 @@
+{
+	"groups": [
+		{
+			"keys": "window_bg_png",
+			"name": "turkey"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/pc/versions/australia/images/window_bg.png",
+			"type": "image",
+			"name": "window_bg_png"
+		}
+	]
+}

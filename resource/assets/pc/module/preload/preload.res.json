@@ -1,0 +1,15 @@
+{
+	"groups": [
+		{
+			"keys": "preload_bg_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/pc/module/preload/images/preload_bg.png",
+			"type": "image",
+			"name": "preload_bg_png"
+		}
+	]
+}
