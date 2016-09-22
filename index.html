@@ -42,12 +42,12 @@
     <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
     <!--game_files_start-->
 	<script egret="game" src="bin-debug/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/core/amf/AmfManager.js"></script>
+	<script egret="game" src="bin-debug/core/amf/Transaction.js"></script>
 	<script egret="game" src="bin-debug/core/base/BaseModule.js"></script>
 	<script egret="game" src="bin-debug/core/base/GlobalAPI.js"></script>
 	<script egret="game" src="bin-debug/core/base/UIBase.js"></script>
 	<script egret="game" src="bin-debug/core/base/WindowBase.js"></script>
-	<script egret="game" src="bin-debug/core/defines/MainNote.js"></script>
-	<script egret="game" src="bin-debug/core/defines/ModuleNote.js"></script>
 	<script egret="game" src="bin-debug/core/event/CustomDataEvent.js"></script>
 	<script egret="game" src="bin-debug/core/event/LoadEvent.js"></script>
 	<script egret="game" src="bin-debug/core/event/MyWindowEvent.js"></script>
@@ -73,6 +73,8 @@
 	<script egret="game" src="bin-debug/global/GlobalConfig.js"></script>
 	<script egret="game" src="bin-debug/loading.js"></script>
 	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/service/messageList/MainNote.js"></script>
+	<script egret="game" src="bin-debug/service/messageList/ModuleNote.js"></script>
 	<script egret="game" src="bin-debug/ThemeAdapter.js"></script>
 	<script egret="game" src="bin-debug/view/module/preload/PreloadMain.js"></script>
 	<script egret="game" src="bin-debug/view/module/preload/PreloadMainUI.js"></script>
@@ -100,16 +102,6 @@
          * }
          **/
         egret.runEgret({renderMode:"webgl", audioType:0});
-
-        var amfClient = new amf.Client("amfphp", "http://local.texas.playshoo.com/flashapi/gateway.php");
-        amfClient.invoke("TexasUser", "resetOrder", [12345678],
-            function(data) {
-                console.log(data);
-            },
-            function(data) {
-                console.log(data);
-            }
-        );
     </script>
 </body>
 </html>

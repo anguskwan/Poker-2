@@ -35,4 +35,9 @@ class GlobalConfig {
     public static get stage(): egret.Stage {
         return this._stage;
     }
+
+	/**
+	 *版本设置
+	 */
+	
 }

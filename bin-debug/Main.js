@@ -28,60 +28,8 @@ var Main = (function (_super) {
         //开始调用模块PreLoad;
         GlobalAPI.moduleMgr = new ModuleManager();
         GlobalAPI.gameObserver = new Notifier();
+        //GlobalAPI.amfMgr = new AmfManager();
         GlobalAPI.moduleMgr.startModule(ModuleNote.PRELOAD, {});
-        mouse.enable(this.stage);
-        this.outContainer = new egret.Sprite();
-        this.outContainer.name = "outContainer";
-        this.outContainer.graphics.beginFill(0x00ff00);
-        this.outContainer.graphics.drawRect(0, 0, 300, 300);
-        this.outContainer.graphics.endFill();
-        this.addChild(this.outContainer);
-        this.outContainer.x = (this.stage.stageWidth - this.outContainer.width) / 2;
-        this.outContainer.y = (this.stage.stageHeight - this.outContainer.height) / 2;
-        //绘制里层显示对象
-        this.inShape = new egret.Sprite();
-        this.inShape.name = "inShape";
-        this.inShape.graphics.beginFill(0xff0000);
-        this.inShape.graphics.drawCircle(0, 0, 50);
-        this.inShape.graphics.endFill();
-        this.inShape.x = this.outContainer.width / 2;
-        this.inShape.y = this.outContainer.height / 2;
-        this.outContainer.addChild(this.inShape);
-        //开启显示对象的触摸
-        this.outContainer.touchEnabled = true;
-        this.inShape.touchEnabled = true;
-        //分别监听外层容器的 MouseEvent
-        this.outContainer.addEventListener(mouse.MouseEvent.ROLL_OVER, this.onRollOver, this);
-        this.outContainer.addEventListener(mouse.MouseEvent.ROLL_OUT, this.onRollOut, this);
-        this.outContainer.addEventListener(mouse.MouseEvent.MOUSE_OVER, this.onMouseOver, this);
-        this.outContainer.addEventListener(mouse.MouseEvent.MOUSE_OUT, this.onMouseOut, this);
-        //分监听内层显示对象的 MouseEvent
-        this.inShape.addEventListener(mouse.MouseEvent.ROLL_OVER, this.onRollOver2, this);
-        this.inShape.addEventListener(mouse.MouseEvent.ROLL_OUT, this.onRollOut2, this);
-        this.inShape.addEventListener(mouse.MouseEvent.MOUSE_OVER, this.onMouseOver2, this);
-        this.inShape.addEventListener(mouse.MouseEvent.MOUSE_OUT, this.onMouseOut2, this);
-    };
-    p.onRollOver = function (e) {
-        console.log("roll over " + e.target.name + "  " + e.bubbles);
-    };
-    p.onRollOut = function (e) {
-        console.log("roll out " + e.target.name + "  " + e.bubbles);
-    };
-    p.onMouseOver = function (e) {
-        console.log("mouse over " + e.target.name + "  " + e.bubbles);
-    };
-    p.onMouseOut = function (e) {
-        console.log("mouse out " + e.target.name + "  " + e.bubbles);
-    };
-    p.onRollOver2 = function (e) {
-        console.log("roll over2 " + e.target.name + "  " + e.bubbles);
-    };
-    p.onRollOut2 = function (e) {
-        console.log("roll out2 " + e.target.name + "  " + e.bubbles);
-    };
-    p.onMouseOver2 = function (e) {
-    };
-    p.onMouseOut2 = function (e) {
     };
     return Main;
 }(eui.UILayer));
