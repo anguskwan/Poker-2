@@ -14,7 +14,6 @@ class BaseModule extends egret.EventDispatcher implements IModule {
      */
     public dispose(): void {
         this.dispatchEvent(new CustomDataEvent("ModuleClose"));
-        
     }
 
     /**

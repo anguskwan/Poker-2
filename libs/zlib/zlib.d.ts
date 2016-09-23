@@ -1,4 +1,4 @@
-declare module Zlib {
+declare module zlib {
     export class Inflate {
         constructor(data:any);
         decompress(): any;

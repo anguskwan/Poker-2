@@ -30,8 +30,20 @@ class Main extends eui.UILayer {
         //开始调用模块PreLoad;
         GlobalAPI.moduleMgr = new ModuleManager();
         GlobalAPI.gameObserver = new Notifier();
-        //GlobalAPI.amfMgr = new AmfManager();
+
+        //console.log(TexasPoker.prototype.championshipList);
+        setTimeout(this.tt, 3000);
+       
 
         GlobalAPI.moduleMgr.startModule(ModuleNote.PRELOAD, {});
+    }
+
+    private tt(): void{
+        TransactionManager.addTransaction(new TChampionshipList(1, 10, this.testComplete)); 
+        TransactionManager.addTransaction(new TChampionshipList1(10, 20,this.testComplete));
+    }
+    private testComplete(): void
+    {
+        //console.log(TexasPoker.championshipList,"11")
     }
 }

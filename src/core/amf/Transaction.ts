@@ -1,21 +1,32 @@
 class Transaction {
-	public isImportant: Boolean;
 	//public startUTC:Number;
 	//private const NO_ERROR:String = "0";
-	//private m_functionName:String;
+	private m_functionName: String;
 	//public static const ON_AMF_ERROR: String = "on_amf_error";
-	
+	public isImportant: boolean;
+
 	public constructor() {
 	}
-	
-	protected onComplete(result:Object):void {
+
+	//给子类特殊处理
+	public execute(): void {
 	}
 
-	protected onFault(type:String, errorData:String):void {
+	//交互完成处理，子类可覆写
+	public onComplete(result:Object):void
+	{
+    }
+		
+	//交互错误处理，子类可覆写
+	public onFault(result:Object):void
+	{
 	}
-    
-	//protected callAmf(functionName:String, ... _args):void {
-        //m_functionName = functionName;
-        //TransactionManager.call(functionName, _args, onAmfComplete, onAmfFault);
-    //}
+
+	//获取数据
+	protected callAmf(functionName: string, ..._args): void {
+        this.m_functionName = functionName;
+		TransactionManager.call(functionName, _args);
+    }
+
+	
 }
