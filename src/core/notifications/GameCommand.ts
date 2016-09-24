@@ -1,3 +1,4 @@
+// TypeScript file
 class GameCommand extends Notifier implements ICommand{
     
     public step:number = -1;

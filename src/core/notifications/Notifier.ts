@@ -1,3 +1,4 @@
+// TypeScript file
 class Notifier implements INotifier {
 
     /**

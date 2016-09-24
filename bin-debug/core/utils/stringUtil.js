@@ -1,3 +1,4 @@
+// TypeScript file
 var stringUtil = (function () {
     function stringUtil() {
     }

@@ -45,11 +45,13 @@ var TransactionManager = (function () {
             case "AMFPHP_FILE_NOT_FOUND":
                 TransactionManager.executeNext();
                 break;
+            //暂未测试
             case "-402":
                 if (TransactionManager.tries < TransactionManager.maxtries) {
                     TransactionManager.retry();
                     return;
                 }
+            //断线
             case 0:
                 console.log("duanx");
                 break;

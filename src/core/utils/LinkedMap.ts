@@ -1,3 +1,6 @@
+/**
+ * Created by wwb on 2016/8/24.
+ */
 class LinkedMap<T,V> {
     private _keys: T[];
     private _items: V[];

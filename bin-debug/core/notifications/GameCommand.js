@@ -1,3 +1,4 @@
+// TypeScript file
 var GameCommand = (function (_super) {
     __extends(GameCommand, _super);
     function GameCommand() {

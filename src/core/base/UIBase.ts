@@ -1,9 +1,7 @@
-/**
- * UI基类
- */
+// TypeScript file
 class UIBase extends eui.Component {
     protected instanceStyle: Object;
-    //protected classShareStyles: Object;
+ //   protected classShareStyles: Object;
     protected invalidHash: Object;
     protected _width: number;
     protected _height: number;

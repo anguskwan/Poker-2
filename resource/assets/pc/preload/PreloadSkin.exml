@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PreloadSkin" width="980" height="700" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="157563f64dd"/>
+	<e:Image source="preload_bg_png" x="-440" y="0"/>
+	<e:Label id="progressTxt" text="0%" x="407" y="381" size="50" width="166" height="54" bold="true"/>
+</e:Skin>

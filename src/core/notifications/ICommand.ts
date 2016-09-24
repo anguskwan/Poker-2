@@ -1,3 +1,4 @@
+// TypeScript file
 interface ICommand{
     /**
      * 命令执行

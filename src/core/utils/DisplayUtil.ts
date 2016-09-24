@@ -1,3 +1,4 @@
+// TypeScript file
 class DisplayUtil extends egret.HashObject {
     constructor() {
         super();

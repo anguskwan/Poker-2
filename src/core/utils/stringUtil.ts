@@ -1,3 +1,4 @@
+// TypeScript file
 class stringUtil{
     public static formatNumber(content:string):string{
         return "";

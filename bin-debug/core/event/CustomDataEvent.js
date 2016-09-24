@@ -1,3 +1,6 @@
+/**
+ * Created by wwb on 2016/9/2.
+ */
 var CustomDataEvent = (function (_super) {
     __extends(CustomDataEvent, _super);
     function CustomDataEvent(type, obj) {

@@ -52,9 +52,9 @@ declare module skins{
 	class ToggleSwitchSkin extends eui.Skin{
 	}
 }
-declare class PreloadSkin extends eui.Skin{
-}
 declare class GetVipBtnSkin extends eui.Skin{
 }
 declare class ShopNavBtnSkin extends eui.Skin{
+}
+declare class PreloadSkin extends eui.Skin{
 }

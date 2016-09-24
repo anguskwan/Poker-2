@@ -6,6 +6,9 @@ var SocketEvent = (function (_super) {
     var d = __define,c=SocketEvent,p=c.prototype;
     SocketEvent.CONNECT = "connect";
     SocketEvent.CLOSE = "close";
+    SocketEvent.SYNC = "sync";
+    SocketEvent.ERROR = "error";
+    SocketEvent.SECURITYERROR = "securityerror";
     return SocketEvent;
 }(egret.Event));
 egret.registerClass(SocketEvent,'SocketEvent');

@@ -2,9 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>USA</title>
+    <title>Egret</title>
     <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="full-screen" content="true"/>
     <meta name="screen-orientation" content="portrait"/>
@@ -35,61 +34,96 @@
 
     <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
     <!--other_libs_files_start-->
-    <script src="libs/amfLib/amf.js" type="text/javascript"></script>
+	<script src="libs/amfLib/amf.js" type="text/javascript"></script>
     <script src="libs/mouse/mouse.min.js" type="text/javascript"></script>
+    <script src="libs/zlib/zlib.min.js" type="text/javascript"></script>
     <!--other_libs_files_end-->
 
     <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
     <!--game_files_start-->
 	<script egret="game" src="bin-debug/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/config/AnalyticalConfig.js"></script>
+	<script egret="game" src="bin-debug/config/BaseConfig.js"></script>
+	<script egret="game" src="bin-debug/config/FileConfig.js"></script>
+	<script egret="game" src="bin-debug/config/GlobalConfig.js"></script>
+	<script egret="game" src="bin-debug/config/PokerConfig.js"></script>
+	<script egret="game" src="bin-debug/config/xml/LevelData.js"></script>
+	<script egret="game" src="bin-debug/config/xml/ShopChest.js"></script>
+	<script egret="game" src="bin-debug/config/xml/ShopConfigChestTreasure.js"></script>
+	<script egret="game" src="bin-debug/config/xml/ShopExpCard.js"></script>
+	<script egret="game" src="bin-debug/config/xml/ShopInteractFace.js"></script>
+	<script egret="game" src="bin-debug/config/xml/ShopProps.js"></script>
+	<script egret="game" src="bin-debug/config/xml/ShopVipCard.js"></script>
+	<script egret="game" src="bin-debug/config/xml/ShopVipCard2.js"></script>
+	<script egret="game" src="bin-debug/config/xml/ShopVipExpCard.js"></script>
 	<script egret="game" src="bin-debug/core/amf/Transaction.js"></script>
 	<script egret="game" src="bin-debug/core/amf/TransactionBase.js"></script>
 	<script egret="game" src="bin-debug/core/amf/TransactionManager.js"></script>
-	<script egret="game" src="bin-debug/core/base/BaseModule.js"></script>
-	<script egret="game" src="bin-debug/core/base/GlobalAPI.js"></script>
 	<script egret="game" src="bin-debug/core/base/UIBase.js"></script>
-	<script egret="game" src="bin-debug/core/base/WindowBase.js"></script>
 	<script egret="game" src="bin-debug/core/event/CustomDataEvent.js"></script>
 	<script egret="game" src="bin-debug/core/event/LoadEvent.js"></script>
-	<script egret="game" src="bin-debug/core/event/MyWindowEvent.js"></script>
-	<script egret="game" src="bin-debug/core/interfaces/IModule.js"></script>
-	<script egret="game" src="bin-debug/core/interfaces/IModuleManager.js"></script>
-	<script egret="game" src="bin-debug/core/interfaces/IWindow.js"></script>
-	<script egret="game" src="bin-debug/core/managers/ModuleManager.js"></script>
-	<script egret="game" src="bin-debug/core/managers/WindowManager.js"></script>
+	<script egret="game" src="bin-debug/core/GlobalAPI.js"></script>
+	<script egret="game" src="bin-debug/core/loader/ParamableURLLoader.js"></script>
+	<script egret="game" src="bin-debug/core/loader/AutoRetryURLLoader.js"></script>
+	<script egret="game" src="bin-debug/core/loader/MainLoaderMgr.js"></script>
+	<script egret="game" src="bin-debug/core/module/BaseModule.js"></script>
+	<script egret="game" src="bin-debug/core/module/IModule.js"></script>
+	<script egret="game" src="bin-debug/core/module/IModuleManager.js"></script>
+	<script egret="game" src="bin-debug/core/module/ModuleManager.js"></script>
 	<script egret="game" src="bin-debug/core/notifications/Notifier.js"></script>
 	<script egret="game" src="bin-debug/core/notifications/GameCommand.js"></script>
 	<script egret="game" src="bin-debug/core/notifications/ICommand.js"></script>
 	<script egret="game" src="bin-debug/core/notifications/INotifier.js"></script>
 	<script egret="game" src="bin-debug/core/notifications/NotificationManager.js"></script>
 	<script egret="game" src="bin-debug/core/rpc/Handler.js"></script>
+	<script egret="game" src="bin-debug/core/socket/ByteArrayDataType.js"></script>
+	<script egret="game" src="bin-debug/core/socket/ByteArrayUtil.js"></script>
+	<script egret="game" src="bin-debug/core/socket/CommandHandler.js"></script>
+	<script egret="game" src="bin-debug/core/socket/MessageHandler.js"></script>
 	<script egret="game" src="bin-debug/core/socket/MySocket.js"></script>
 	<script egret="game" src="bin-debug/core/socket/SocketEncrypt.js"></script>
 	<script egret="game" src="bin-debug/core/socket/SocketEvent.js"></script>
+	<script egret="game" src="bin-debug/core/socket/SocketMsgDistribute.js"></script>
 	<script egret="game" src="bin-debug/core/utils/DisplayUtil.js"></script>
 	<script egret="game" src="bin-debug/core/utils/HashMap.js"></script>
 	<script egret="game" src="bin-debug/core/utils/LinkedMap.js"></script>
+	<script egret="game" src="bin-debug/core/utils/MovieClipUtil.js"></script>
+	<script egret="game" src="bin-debug/core/utils/PokerTimer.js"></script>
+	<script egret="game" src="bin-debug/core/utils/Rot128.js"></script>
 	<script egret="game" src="bin-debug/core/utils/SocketUtil.js"></script>
 	<script egret="game" src="bin-debug/core/utils/stringUtil.js"></script>
-	<script egret="game" src="bin-debug/global/GlobalConfig.js"></script>
-	<script egret="game" src="bin-debug/loading.js"></script>
-	<script egret="game" src="bin-debug/Main.js"></script>
-	<script egret="game" src="bin-debug/service/amfList/TChampionshipList.js"></script>
-	<script egret="game" src="bin-debug/service/amfList/TChampionshipList1.js"></script>
-	<script egret="game" src="bin-debug/service/data/amfData/TexasPoker.js"></script>
-	<script egret="game" src="bin-debug/service/messageList/MainNote.js"></script>
-	<script egret="game" src="bin-debug/service/messageList/ModuleNote.js"></script>
+	<script egret="game" src="bin-debug/core/utils/timer/FrameTimer.js"></script>
+	<script egret="game" src="bin-debug/core/utils/timer/FrameTimerManager.js"></script>
+	<script egret="game" src="bin-debug/core/utils/TraceUtil.js"></script>
+	<script egret="game" src="bin-debug/core/window/IWindow.js"></script>
+	<script egret="game" src="bin-debug/core/window/MyWindowEvent.js"></script>
+	<script egret="game" src="bin-debug/core/window/WindowBase.js"></script>
+	<script egret="game" src="bin-debug/core/window/WindowManager.js"></script>
+	<script egret="game" src="bin-debug/model/amfData/TexasPoker.js"></script>
+	<script egret="game" src="bin-debug/model/AppData.js"></script>
+	<script egret="game" src="bin-debug/service/amf/TChampionshipList.js"></script>
+	<script egret="game" src="bin-debug/service/message/MainNote.js"></script>
+	<script egret="game" src="bin-debug/service/message/ModuleNote.js"></script>
+	<script egret="game" src="bin-debug/service/PokerService.js"></script>
+	<script egret="game" src="bin-debug/service/socket/CommandType.js"></script>
+	<script egret="game" src="bin-debug/startUp/MainLoader.js"></script>
+	<script egret="game" src="bin-debug/startUp/ConfigLoader.js"></script>
+	<script egret="game" src="bin-debug/startUp/Main.js"></script>
+	<script egret="game" src="bin-debug/startUp/MainBase.js"></script>
+	<script egret="game" src="bin-debug/startUp/Poker.js"></script>
+	<script egret="game" src="bin-debug/startUp/PokerStartup.js"></script>
+	<script egret="game" src="bin-debug/startUp/PreLoaderNew.js"></script>
 	<script egret="game" src="bin-debug/ThemeAdapter.js"></script>
-	<script egret="game" src="bin-debug/view/module/preload/PreloadMain.js"></script>
-	<script egret="game" src="bin-debug/view/module/preload/PreloadMainUI.js"></script>
+	<script egret="game" src="bin-debug/view/preload/PreloadMain.js"></script>
+	<script egret="game" src="bin-debug/view/preload/PreloadMainUI.js"></script>
 	<!--game_files_end-->
 </head>
 <body>
 
-    <div style="margin: auto;width: 980px;height: 700px; " class="egret-player"
+    <div style="margin: auto;width: 980px;height: 700px;" class="egret-player"
          data-entry-class="Main"
          data-orientation="auto"
-         data-scale-mode="noScall"
+         data-scale-mode="showAll"
          data-frame-rate="30"
          data-content-width="980"
          data-content-height="700"

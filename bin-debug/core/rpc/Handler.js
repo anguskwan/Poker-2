@@ -1,3 +1,6 @@
+/**
+ * Created by wwb on 2016/8/24.
+ */
 var Handler = (function (_super) {
     __extends(Handler, _super);
     function Handler(reference, method, arguement) {

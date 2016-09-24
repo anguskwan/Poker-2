@@ -1,3 +1,4 @@
+// TypeScript file
 interface INotifier {
 
     /**

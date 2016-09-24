@@ -1,3 +1,4 @@
+// TypeScript file
 var NotificationManager = (function () {
     function NotificationManager() {
         this._notificationMap = new HashMap();

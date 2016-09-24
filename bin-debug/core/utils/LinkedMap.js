@@ -1,3 +1,6 @@
+/**
+ * Created by wwb on 2016/8/24.
+ */
 var LinkedMap = (function () {
     function LinkedMap() {
         this._keys = [];

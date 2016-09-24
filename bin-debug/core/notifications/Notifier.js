@@ -1,3 +1,4 @@
+// TypeScript file
 var Notifier = (function () {
     function Notifier() {
         /**

@@ -1,3 +1,6 @@
+/**
+ * Created by wwb on 2016/8/24.
+ */
 class Handler extends egret.HashObject {
     private _reference: Object;
     private _method: Function;

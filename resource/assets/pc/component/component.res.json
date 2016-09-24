@@ -1,0 +1,175 @@
+{
+	"groups": [
+		{
+			"keys": "basic_closeButton_up_png,blue_button_down_png,button_down_png,blue_button_up_png,green_button_up_png,button_up_png,grey_button_down_png,green_button_down_png,orange_button_down_png,basic_closeButton_down_png,grey_button_up_png,orange_button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,track_pb_png,thumb_pb_png,radiobutton_unselect_png,radiobutton_select_down_png,radiobutton_select_disabled_png,radiobutton_select_up_png,roundthumb_png,track_sb_png,track_png,tracklight_png,thumb_png,off_png,on_png,handle_png",
+			"name": "component"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/pc/component/Button/images/basic_closeButton_up.png",
+			"type": "image",
+			"name": "basic_closeButton_up_png"
+		},
+		{
+			"url": "assets/pc/component/Button/images/blue_button_down.png",
+			"type": "image",
+			"name": "blue_button_down_png"
+		},
+		{
+			"url": "assets/pc/component/Button/images/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/pc/component/Button/images/blue_button_up.png",
+			"type": "image",
+			"name": "blue_button_up_png"
+		},
+		{
+			"url": "assets/pc/component/Button/images/green_button_up.png",
+			"type": "image",
+			"name": "green_button_up_png"
+		},
+		{
+			"url": "assets/pc/component/Button/images/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/pc/component/Button/images/grey_button_down.png",
+			"type": "image",
+			"name": "grey_button_down_png"
+		},
+		{
+			"url": "assets/pc/component/Button/images/green_button_down.png",
+			"type": "image",
+			"name": "green_button_down_png"
+		},
+		{
+			"url": "assets/pc/component/Button/images/orange_button_down.png",
+			"type": "image",
+			"name": "orange_button_down_png"
+		},
+		{
+			"url": "assets/pc/component/Button/images/basic_closeButton_down.png",
+			"type": "image",
+			"name": "basic_closeButton_down_png"
+		},
+		{
+			"url": "assets/pc/component/Button/images/grey_button_up.png",
+			"type": "image",
+			"name": "grey_button_up_png"
+		},
+		{
+			"url": "assets/pc/component/Button/images/orange_button_up.png",
+			"type": "image",
+			"name": "orange_button_up_png"
+		},
+		{
+			"url": "assets/pc/component/CheckBox/images/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/pc/component/CheckBox/images/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/pc/component/CheckBox/images/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/pc/component/CheckBox/images/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/pc/component/ItemRenderer/images/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/pc/component/Panel/images/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/pc/component/Panel/images/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/pc/component/ProgressBar/images/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/pc/component/ProgressBar/images/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/pc/component/RadioButton/images/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/pc/component/RadioButton/images/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/pc/component/RadioButton/images/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/pc/component/RadioButton/images/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/pc/component/ScrollBar/images/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/pc/component/ScrollBar/images/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/pc/component/Slider/images/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/pc/component/Slider/images/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/pc/component/Slider/images/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/pc/component/ToggleSwitch/images/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/pc/component/ToggleSwitch/images/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/pc/component/ToggleSwitch/images/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		}
+	]
+}

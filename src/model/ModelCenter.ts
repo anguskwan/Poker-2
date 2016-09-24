@@ -1,0 +1,4 @@
+class ModelCenter {
+	public constructor() {
+	}
+}

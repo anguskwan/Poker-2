@@ -1,3 +1,4 @@
+// TypeScript file
 var HashMap = (function () {
     function HashMap() {
         this.content = new Object();

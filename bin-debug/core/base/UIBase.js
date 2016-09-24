@@ -1,6 +1,4 @@
-/**
- * UI基类
- */
+// TypeScript file
 var UIBase = (function (_super) {
     __extends(UIBase, _super);
     function UIBase() {

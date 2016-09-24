@@ -1,4 +1,6 @@
+// TypeScript file
 class HashMap {
+
     private _length:number;
     private content:Object;
     constructor() {

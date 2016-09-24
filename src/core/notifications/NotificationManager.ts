@@ -1,3 +1,4 @@
+// TypeScript file
 class NotificationManager {
     private static _instance: NotificationManager;
     private _notificationMap: HashMap = new HashMap();

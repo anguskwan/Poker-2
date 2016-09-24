@@ -1,3 +1,4 @@
+// TypeScript file
 var DisplayUtil = (function (_super) {
     __extends(DisplayUtil, _super);
     function DisplayUtil() {

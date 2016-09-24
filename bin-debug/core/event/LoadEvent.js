@@ -1,3 +1,6 @@
+/**
+ * Created by wwb on 2016/8/24.
+ */
 var LoadEvent = (function (_super) {
     __extends(LoadEvent, _super);
     function LoadEvent() {
